@@ -1,0 +1,63 @@
+name: Klänge holen
+
+# Holt die Aufnahmen aus werkzeug/auswahl.json von Wikimedia Commons,
+# schneidet sie zurecht und committet klaenge/ samt QUELLEN.md.
+# Von Hand auszulösen: Actions → Klänge holen → Run workflow.
+#
+# Warum als Action: Wikimedia drosselt geteilte Cloud-Adressen gern
+# (HTTP 429). Bricht ein Lauf deswegen ab, bleibt im Repo, was schon da
+# ist, und der nächste Lauf holt den Rest — die Rohdateien liegen im Cache.
+on:
+  workflow_dispatch:
+    inputs:
+      nur:
+        description: 'Nur diese Kennungen (Leerzeichen dazwischen), leer = alle'
+        required: false
+        default: ''
+
+permissions:
+  contents: write
+
+jobs:
+  holen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: ffmpeg und numpy
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg
+          pip install --quiet numpy
+
+      - name: Rohdateien aus dem Cache
+        uses: actions/cache@v4
+        with:
+          path: werkzeug/.roh
+          key: roh-${{ hashFiles('werkzeug/auswahl.json') }}
+          restore-keys: roh-
+
+      - name: Holen und schneiden
+        id: holen
+        continue-on-error: true
+        run: python3 werkzeug/klaenge-holen.py ${{ github.event.inputs.nur }}
+
+      - name: Prüfen
+        run: node test/pruefen.mjs
+
+      - name: Committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add klaenge QUELLEN.md
+          if git diff --cached --quiet; then
+            echo "Nichts Neues."
+          else
+            git commit -m "Klänge von Wikimedia Commons geholt"
+            git push
+          fi
+
+      - name: Unvollständig?
+        if: steps.holen.outcome == 'failure'
+        run: |
+          echo "::warning::Wikimedia hat gedrosselt — nicht alle Klänge sind da. Später noch einmal starten."
