@@ -1,1 +1,25 @@
-{"_hinweis": "erzeugt von werkzeug/klaenge-holen.py", "klaenge": []}
+{
+ "_hinweis": "erzeugt von werkzeug/klaenge-holen.py",
+ "klaenge": [
+  {
+   "id": "regen-leicht",
+   "name": "Leichter Regen",
+   "gruppe": "Wetter",
+   "art": "bett",
+   "dateien": [
+    "regen-leicht.ogg"
+   ],
+   "dauer": [
+    57.26
+   ],
+   "kanaele": 1,
+   "quelle": {
+    "titel": "Sound of light rainfall.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Sound_of_light_rainfall.ogg",
+    "urheber": "Mijesty",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+   }
+  }
+ ]
+}
