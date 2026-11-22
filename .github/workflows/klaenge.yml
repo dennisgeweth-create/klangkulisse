@@ -47,6 +47,9 @@ jobs:
         env:
           KK_PAUSE: '30'
           KK_VERSUCHE: '7'
+          # Kontakt für den User-Agent (Wikimedia-Richtlinie): Settings →
+          # Secrets and variables → Actions → Variables → KK_KONTAKT.
+          KK_KONTAKT: ${{ vars.KK_KONTAKT }}
         run: python3 werkzeug/klaenge-holen.py ${{ github.event.inputs.nur }}
 
       - name: Prüfen
