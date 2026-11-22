@@ -23,7 +23,12 @@ WURZEL = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ROH = os.path.join(WURZEL, 'werkzeug', '.roh')
 ZIEL = os.path.join(WURZEL, 'klaenge')
 API = 'https://commons.wikimedia.org/w/api.php'
-UA = 'Klangkulisse/0.1 (D&D-Klangkulisse; Werkzeug zum Holen freier Klaenge)'
+# Wikimedia bittet darum, im User-Agent eine Kontaktmöglichkeit zu nennen
+# (https://meta.wikimedia.org/wiki/User-Agent_policy) und drosselt Anfragen
+# ohne sie härter. KK_KONTAKT (E-Mail oder Adresse des eigenen Repos) wird
+# angehängt, wenn gesetzt.
+UA = 'Klangkulisse/0.1 (D&D-Klangkulisse; Werkzeug zum Holen freier Klaenge' + (
+    '; ' + os.environ['KK_KONTAKT'] if os.environ.get('KK_KONTAKT') else '') + ')'
 SR = 48000
 GROESSTE = 90 * 1024 * 1024
 # Wikimedia nimmt viele schnelle Downloads von einer Adresse übel (HTTP 429).
@@ -235,6 +240,11 @@ def verarbeiten(eintrag, x):
     return [blende(pegeln(t, -16, -1.0), 0.004, min(0.08, len(t) / SR / 4)) for t in teile if len(t) > SR * 0.1]
 
 
+def schnitt_von(e):
+    """Alles, was bestimmt, wie eine Aufnahme geschnitten wird."""
+    return '|'.join(str(e.get(k, '')) for k in ('titel', 'art', 'max', 'teilen'))
+
+
 def main():
     with open(os.path.join(WURZEL, 'werkzeug', 'auswahl.json'), encoding='utf-8') as f:
         auswahl = json.load(f)['klaenge']
@@ -254,6 +264,14 @@ def main():
         if gedrosselt or (nur and e['id'] not in nur):
             if e['id'] in alt:
                 katalog.append(alt[e['id']])
+            continue
+        # Schon geschnitten, mit denselben Vorgaben? Dann bleibt es, wie es ist —
+        # Opus kodiert nicht bitgleich, ein neuer Schnitt wäre ein leerer Commit.
+        schnitt = schnitt_von(e)
+        vorher = alt.get(e['id'])
+        if (vorher and vorher.get('schnitt') == schnitt and not os.environ.get('KK_NEU')
+                and all(os.path.exists(os.path.join(ZIEL, d)) for d in vorher['dateien'])):
+            katalog.append(vorher)
             continue
         i = info.get(e['titel'])
         if not i:
@@ -299,7 +317,7 @@ def main():
         print('fertig  ', e['id'].ljust(16), len(dateien), 'Datei(en)', '%.1fs' % sum(dauer), i['lizenz'], flush=True)
         katalog.append({
             'id': e['id'], 'name': e['name'], 'gruppe': e['gruppe'], 'art': e['art'],
-            'dateien': dateien, 'dauer': dauer, 'kanaele': kanaele,
+            'dateien': dateien, 'dauer': dauer, 'kanaele': kanaele, 'schnitt': schnitt,
             'quelle': {'titel': e['titel'], 'seite': i['seite'], 'urheber': i['urheber'],
                        'lizenz': i['lizenz'], 'lizenzUrl': i['lizenzUrl']},
         })

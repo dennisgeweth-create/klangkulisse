@@ -82,7 +82,15 @@ Was mit einer Aufnahme geschieht, sagt ihre `art` in der Auswahl:
 - `einzel`: Stille vorn und hinten weg; mit `teilen: n` in die n lautesten Einzelgeräusche zerlegt
 - `musik`: von vorn, aus- und eingeblendet
 
-Wikimedia drosselt geteilte Cloud-Adressen gelegentlich (HTTP 429). Das Werkzeug hält sich an `Retry-After`, bricht nach drei Absagen ab und behält, was es hat. Ein späterer Lauf macht dort weiter.
+Wikimedia drosselt Rechenzentrums-Adressen (Cloud, GitHub Actions) oft hart (HTTP 429). Das Werkzeug hält sich an `Retry-After`, bricht nach einigen Absagen ab und behält, was es hat. Ein späterer Lauf macht dort weiter, schon geschnittene Klänge bleiben unangetastet. Bleibt die Action hängen, geht es am schnellsten vom eigenen Rechner aus, denn eine Heimadresse wird kaum gedrosselt. Unter Windows:
+
+```powershell
+winget install Python.Python.3.12 Gyan.FFmpeg   # einmalig, danach neues Terminal
+py -m pip install numpy
+$env:KK_KONTAKT = "deine@adresse.de"             # empfohlen: Wikimedia will einen Kontakt im User-Agent
+py werkzeug\klaenge-holen.py
+git add klaenge QUELLEN.md; git commit -m "Klänge geholt"; git push
+```
 
 Neue Klänge finden:
 
