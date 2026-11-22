@@ -37,9 +37,16 @@ jobs:
           key: roh-${{ hashFiles('werkzeug/auswahl.json') }}
           restore-keys: roh-
 
+      # Langsam und geduldig: eine Datei alle 30 Sekunden, bei Drosselung
+      # mit wachsenden Pausen bis zu sieben Versuche. Ein voller Lauf dauert
+      # so gut eine Dreiviertelstunde.
       - name: Holen und schneiden
         id: holen
         continue-on-error: true
+        timeout-minutes: 300
+        env:
+          KK_PAUSE: '30'
+          KK_VERSUCHE: '7'
         run: python3 werkzeug/klaenge-holen.py ${{ github.event.inputs.nur }}
 
       - name: Prüfen

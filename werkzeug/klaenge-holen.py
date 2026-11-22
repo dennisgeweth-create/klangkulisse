@@ -26,6 +26,11 @@ API = 'https://commons.wikimedia.org/w/api.php'
 UA = 'Klangkulisse/0.1 (D&D-Klangkulisse; Werkzeug zum Holen freier Klaenge)'
 SR = 48000
 GROESSTE = 90 * 1024 * 1024
+# Wikimedia nimmt viele schnelle Downloads von einer Adresse übel (HTTP 429).
+# Pause zwischen zwei Dateien und Zahl der Versuche je Datei — die Action
+# setzt beides großzügig (KK_PAUSE, KK_VERSUCHE).
+PAUSE = float(os.environ.get('KK_PAUSE', '5'))
+VERSUCHE = int(os.environ.get('KK_VERSUCHE', '4'))
 FREI = ('cc0', 'public domain', 'pd', 'cc by', 'cc-by', 'pdm')
 
 
@@ -38,7 +43,7 @@ def anfrage(url, binaer=False):
     # aber nicht endlos: nach drei Absagen bricht der Lauf ab und behält,
     # was er hat. Ein späterer Lauf macht dort weiter (die Rohdateien bleiben).
     req = urllib.request.Request(url, headers={'User-Agent': UA})
-    for versuch in range(4):
+    for versuch in range(VERSUCHE):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 daten = r.read()
@@ -46,9 +51,9 @@ def anfrage(url, binaer=False):
         except urllib.error.HTTPError as f:
             if f.code not in (429, 503):
                 raise
-            if versuch == 3:
+            if versuch == VERSUCHE - 1:
                 raise Gedrosselt(url)
-            warte = min(int(f.headers.get('Retry-After') or 0) or 30 * (versuch + 1), 900)
+            warte = min(int(f.headers.get('Retry-After') or 0) or 60 * 2 ** versuch, 900)
             print('  Wikimedia drosselt (%d) — warte %d s' % (f.code, warte), flush=True)
             time.sleep(warte)
 
@@ -275,7 +280,7 @@ def main():
             with open(roh + '.teil', 'wb') as f:
                 f.write(daten)
             os.replace(roh + '.teil', roh)
-            time.sleep(1)
+            time.sleep(PAUSE)
         try:
             x = lesen(roh)
         except subprocess.CalledProcessError as f:
