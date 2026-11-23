@@ -54,39 +54,39 @@
     "regen-fenster.ogg"
    ],
    "dauer": [
-    8.15
+    78.66
    ],
-   "kanaele": 2,
-   "schnitt": "oga|rain-on-window-loop|rain_on_window_loop.wav|\"*\"|bett|80|",
+   "kanaele": 1,
+   "schnitt": "Rain against the window.ogg|bett|80|",
    "quelle": {
-    "titel": "Rain on Window Loop",
-    "seite": "https://opengameart.org/content/rain-on-window-loop",
-    "urheber": "alxl",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Rain against the window.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Rain_against_the_window.ogg",
+    "urheber": "cori",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "regen-veranda",
-   "name": "Regen in der Rinne",
+   "name": "Regen auf dem Vordach",
    "gruppe": "Wetter",
    "art": "bett",
    "dateien": [
     "regen-veranda.ogg"
    ],
    "dauer": [
-    30.0
+    26.99
    ],
-   "kanaele": 2,
-   "schnitt": "oga|rain-gutter-loop|rain-gutter-loop_0.mp3|\"*\"|bett|30|",
+   "kanaele": 1,
+   "schnitt": "Rain on a veranda and t.ogg|bett|30|",
    "quelle": {
-    "titel": "Rain in the Gutter Loop",
-    "seite": "https://opengameart.org/content/rain-gutter-loop",
-    "urheber": "Ogrebane",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Rain on a veranda and t.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Rain_on_a_veranda_and_t.ogg",
+    "urheber": "ezwa",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -98,17 +98,17 @@
     "gewitter-wald.ogg"
    ],
    "dauer": [
-    75.0
+    120.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Heavy Thunderstorm*\"|bett|120|",
+   "schnitt": "Summer thunderstorm in the woods.ogg|bett|120|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Summer thunderstorm in the woods.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Summer_thunderstorm_in_the_woods.ogg",
+    "urheber": "Serg Childed",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -120,17 +120,17 @@
     "gewitter.ogg"
    ],
    "dauer": [
-    41.37
+    120.0
    ],
-   "kanaele": 1,
-   "schnitt": "oga|rain-long-thunder|rain-thunder.ogg|\"*\"|bett|120|",
+   "kanaele": 2,
+   "schnitt": "Thunderstorm after hot summer day 17 minutes 02 of 04.ogg|bett|120|",
    "quelle": {
-    "titel": "Rain + Long Thunder",
-    "seite": "https://opengameart.org/content/rain-long-thunder",
-    "urheber": "WuxiaScrub",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Thunderstorm after hot summer day 17 minutes 02 of 04.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Thunderstorm_after_hot_summer_day_17_minutes_02_of_04.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -142,39 +142,39 @@
     "wind-heulen.ogg"
    ],
    "dauer": [
-    75.0
+    90.0
    ],
-   "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Mountain Peak*\"|bett|90|",
+   "kanaele": 1,
+   "schnitt": "Howling wind.ogg|bett|90|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Howling wind.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Howling_wind.ogg",
+    "urheber": "Tvabutzku1234",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "sturm",
-   "name": "Sturm",
+   "name": "Sturm auf dem Hügel",
    "gruppe": "Wetter",
    "art": "bett",
    "dateien": [
     "sturm.ogg"
    ],
    "dauer": [
-    69.0
+    65.61
    ],
    "kanaele": 2,
-   "schnitt": "oga|storm-arwen-2022|storm_arwen_2022.flac|\"*\"|bett|69|",
+   "schnitt": "Killiney Hill Storm Floris 20250804 1537.ogg|bett|69|",
    "quelle": {
-    "titel": "Storm Arwen 2022",
-    "seite": "https://opengameart.org/content/storm-arwen-2022",
-    "urheber": "Tsorthan Grove",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Killiney Hill Storm Floris 20250804 1537.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Killiney_Hill_Storm_Floris_20250804_1537.ogg",
+    "urheber": "Karlunun",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -186,17 +186,17 @@
     "wind-schnee.ogg"
    ],
    "dauer": [
-    44.0
+    41.07
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Winter Wind*\"|bett|44|",
+   "schnitt": "20221229 - Abisko Turiststation at night - Wind and snow.wav|bett|44|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "20221229 - Abisko Turiststation at night - Wind and snow.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:20221229_-_Abisko_Turiststation_at_night_-_Wind_and_snow.wav",
+    "urheber": "Fabricio Cardenas",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -208,17 +208,17 @@
     "wald-morgen.ogg"
    ],
    "dauer": [
-    74.0
+    88.45
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Forest Day*\"|bett|90|",
+   "schnitt": "Bourne woods 2020-05-04 0740.mp3|bett|90|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Bourne woods 2020-05-04 0740.mp3",
+    "seite": "https://commons.wikimedia.org/wiki/File:Bourne_woods_2020-05-04_0740.mp3",
+    "urheber": "Robert EA Harvey",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -230,17 +230,17 @@
     "wald-regen.ogg"
    ],
    "dauer": [
-    75.0
+    72.09
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Light Rain*\"|bett|75|",
+   "schnitt": "Bourne woods Birdsong and rain 2020-06-17 0742.mp3|bett|75|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Bourne woods Birdsong and rain 2020-06-17 0742.mp3",
+    "seite": "https://commons.wikimedia.org/wiki/File:Bourne_woods_Birdsong_and_rain_2020-06-17_0742.mp3",
+    "urheber": "Robert EA Harvey",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -252,17 +252,17 @@
     "wald-abend.ogg"
    ],
    "dauer": [
-    75.0
+    90.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Summer Evening*\"|bett|90|",
+   "schnitt": "Waidachswald Oberschefflenz Abend 20250616 2005.ogg|bett|90|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Waidachswald Oberschefflenz Abend 20250616 2005.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Waidachswald_Oberschefflenz_Abend_20250616_2005.ogg",
+    "urheber": "Evillan",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -274,17 +274,17 @@
     "wald-nacht.ogg"
    ],
    "dauer": [
-    75.0
+    90.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Forest Night*\"|bett|90|",
+   "schnitt": "A night in a old game forest - Felipe RuizBRX11.wav|bett|90|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "A night in a old game forest - Felipe RuizBRX11.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:A_night_in_a_old_game_forest_-_Felipe_RuizBRX11.wav",
+    "urheber": "Felipe Ruiz P.",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -296,17 +296,17 @@
     "teich.ogg"
    ],
    "dauer": [
-    57.0
+    54.05
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Peaceful Lake*\"|bett|57|",
+   "schnitt": "Nature sounds ambience in a Dordogne pond.ogg|bett|57|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Nature sounds ambience in a Dordogne pond.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Nature_sounds_ambience_in_a_Dordogne_pond.ogg",
+    "urheber": "Glaneur de sons.",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -318,17 +318,17 @@
     "froesche.ogg"
    ],
    "dauer": [
-    75.0
+    90.0
    ],
-   "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Swamp*\"|bett|90|",
+   "kanaele": 1,
+   "schnitt": "Frogs croak calling chorus at night.ogg|bett|90|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Frogs croak calling chorus at night.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Frogs_croak_calling_chorus_at_night.ogg",
+    "urheber": "JogiAsad",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -340,39 +340,39 @@
     "bach.ogg"
    ],
    "dauer": [
-    69.0
+    65.89
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Mountain Stream*\"|bett|69|",
+   "schnitt": "433589 jackthemurray stream-river-water-up-close.wav|bett|69|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "433589 jackthemurray stream-river-water-up-close.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:433589_jackthemurray_stream-river-water-up-close.wav",
+    "urheber": "jackthemurray",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "stromschnellen",
-   "name": "Fluss",
+   "name": "Stromschnellen",
    "gruppe": "Wasser",
    "art": "bett",
    "dateien": [
     "stromschnellen.ogg"
    ],
    "dauer": [
-    18.42
+    90.0
    ],
-   "kanaele": 1,
-   "schnitt": "oga|ambient-mountain-river-wind-and-forest-and-waterfall|ambient_mountains_forest_river_waterfall_wind.7z|\"*amb_river*\"|bett|90|",
+   "kanaele": 2,
+   "schnitt": "James River Rapids 1.ogg|bett|90|",
    "quelle": {
-    "titel": "Ambient Mountain, River, Wind and Forest and Waterfall",
-    "seite": "https://opengameart.org/content/ambient-mountain-river-wind-and-forest-and-waterfall",
-    "urheber": "Lamoot",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "James River Rapids 1.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:James_River_Rapids_1.ogg",
+    "urheber": "Jarrod stanley",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -384,17 +384,17 @@
     "wasserfall.ogg"
    ],
    "dauer": [
-    30.0
+    26.66
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Waterfall*\"|bett|30|",
+   "schnitt": "Water fall.ogg|bett|30|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Water fall.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Water_fall.ogg",
+    "urheber": "Benzband",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -406,17 +406,61 @@
     "brandung.ogg"
    ],
    "dauer": [
-    75.0
+    90.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Ocean Waves*\"|bett|90|",
+   "schnitt": "Ocean Waves on a Tropical Beach.ogg|bett|90|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Ocean Waves on a Tropical Beach.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Ocean_Waves_on_a_Tropical_Beach.ogg",
+    "urheber": "Jarrod stanley",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "kiesstrand",
+   "name": "Kiesstrand",
+   "gruppe": "Wasser",
+   "art": "bett",
+   "dateien": [
+    "kiesstrand.ogg"
+   ],
+   "dauer": [
+    37.36
+   ],
+   "kanaele": 2,
+   "schnitt": "On a pebble beach.ogg|bett|40|",
+   "quelle": {
+    "titel": "On a pebble beach.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:On_a_pebble_beach.ogg",
+    "urheber": "earthcalling",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "hafen",
+   "name": "Boot am Steg",
+   "gruppe": "Wasser",
+   "art": "bett",
+   "dateien": [
+    "hafen.ogg"
+   ],
+   "dauer": [
+    90.0
+   ],
+   "kanaele": 1,
+   "schnitt": "Boat by a wharf 2.ogg|bett|90|",
+   "quelle": {
+    "titel": "Boat by a wharf 2.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Boat_by_a_wharf_2.ogg",
+    "urheber": "ezwa",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -428,17 +472,39 @@
     "hoehle-tropfen.ogg"
    ],
    "dauer": [
-    17.06
+    80.6
+   ],
+   "kanaele": 1,
+   "schnitt": "Water drips in Treak Cliff Cavern, Derbyshire.flac|bett|84|",
+   "quelle": {
+    "titel": "Water drips in Treak Cliff Cavern, Derbyshire.flac",
+    "seite": "https://commons.wikimedia.org/wiki/File:Water_drips_in_Treak_Cliff_Cavern,_Derbyshire.flac",
+    "urheber": "Andy Mabbett",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "fledermaeuse",
+   "name": "Fledermaushöhle",
+   "gruppe": "Unterwelt",
+   "art": "bett",
+   "dateien": [
+    "fledermaeuse.ogg"
+   ],
+   "dauer": [
+    90.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|dripping-water-loop|atmosbasement.mp3_.flac|\"*\"|bett|84|",
+   "schnitt": "Derek Holzer - Batcave (CC by).ogg|bett|90|",
    "quelle": {
-    "titel": "Dripping water loop",
-    "seite": "https://opengameart.org/content/dripping-water-loop",
-    "urheber": "qubodup",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Derek Holzer - Batcave (CC by).ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Derek_Holzer_-_Batcave_(CC_by).ogg",
+    "urheber": "unbekannt",
+    "lizenz": "CC BY 2.5",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/2.5",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -450,39 +516,39 @@
     "drohne-keller.ogg"
    ],
    "dauer": [
-    6.18
+    120.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|30-cc0-sfx-loops|sfx_loops.zip|\"*ambient_01.ogg\"|bett|120|",
+   "schnitt": "John Bartmann - dark-basement-master.ogg|bett|120|",
    "quelle": {
-    "titel": "30 CC0 SFX loops",
-    "seite": "https://opengameart.org/content/30-cc0-sfx-loops",
-    "urheber": "rubberduck",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "John Bartmann - dark-basement-master.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:John_Bartmann_-_dark-basement-master.ogg",
+    "urheber": "John Bartmann",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "drohne-tunnel",
-   "name": "Verlies (Klangfläche)",
+   "name": "Verlassener Tunnel (Klangfläche)",
    "gruppe": "Unterwelt",
    "art": "bett",
    "dateien": [
     "drohne-tunnel.ogg"
    ],
    "dauer": [
-    91.31
+    120.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|loopable-dungeon-ambience|dungeon_ambient_1_0.ogg|\"*\"|bett|120|",
+   "schnitt": "John Bartmann - abandoned-subway-master.ogg|bett|120|",
    "quelle": {
-    "titel": "Loopable Dungeon Ambience",
-    "seite": "https://opengameart.org/content/loopable-dungeon-ambience",
-    "urheber": "JaggedStone",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "John Bartmann - abandoned-subway-master.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:John_Bartmann_-_abandoned-subway-master.ogg",
+    "urheber": "John Bartmann",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -494,17 +560,17 @@
     "lagerfeuer.ogg"
    ],
    "dauer": [
-    52.0
+    48.88
    ],
-   "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Campfire Crackling*\"|bett|52|",
+   "kanaele": 1,
+   "schnitt": "WWS Bonfireburning.ogg|bett|52|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
+    "titel": "WWS Bonfireburning.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:WWS_Bonfireburning.ogg",
+    "urheber": "Work With Sounds / Werstas",
     "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -516,17 +582,17 @@
     "feuer-gras.ogg"
    ],
    "dauer": [
-    25.0
+    22.5
    ],
-   "kanaele": 2,
-   "schnitt": "oga|fireplace-sound-loop|fire.wav|\"*\"|bett|25|",
+   "kanaele": 1,
+   "schnitt": "Dry grass burning in open fireplace.ogg|bett|25|",
    "quelle": {
-    "titel": "Fireplace Sound loop",
-    "seite": "https://opengameart.org/content/fireplace-sound-loop",
-    "urheber": "PagDev",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Dry grass burning in open fireplace.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Dry_grass_burning_in_open_fireplace.ogg",
+    "urheber": "ezwa",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -538,17 +604,17 @@
     "esse.ogg"
    ],
    "dauer": [
-    18.0
+    14.64
    ],
    "kanaele": 2,
-   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Large Bonfire*\"|bett|18|",
+   "schnitt": "WWS Fireoftheforge.ogg|bett|18|",
    "quelle": {
-    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
-    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
-    "urheber": "JC Sounds",
+    "titel": "WWS Fireoftheforge.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:WWS_Fireoftheforge.ogg",
+    "urheber": "Work With Sounds / La Fonderie",
     "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -560,193 +626,303 @@
     "schmiede.ogg"
    ],
    "dauer": [
-    1.84
+    90.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|hammer-on-anvil|forger_0.ogg|\"*\"|bett|90|",
+   "schnitt": "WWS Blacksmith8217sanvil.ogg|bett|90|",
    "quelle": {
-    "titel": "Hammer on Anvil",
-    "seite": "https://opengameart.org/content/hammer-on-anvil",
-    "urheber": "themightyglider",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "WWS Blacksmith8217sanvil.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:WWS_Blacksmith8217sanvil.ogg",
+    "urheber": "Work With Sounds / La Fonderie",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "gasthaus",
+   "name": "Gaststube",
+   "gruppe": "Orte",
+   "art": "bett",
+   "dateien": [
+    "gasthaus.ogg"
+   ],
+   "dauer": [
+    73.25
+   ],
+   "kanaele": 2,
+   "schnitt": "Restaurant ambience.ogg|bett|76|",
+   "quelle": {
+    "titel": "Restaurant ambience.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Restaurant_ambience.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "gespraech",
+   "name": "Gespräch am Tisch",
+   "gruppe": "Orte",
+   "art": "bett",
+   "dateien": [
+    "gespraech.ogg"
+   ],
+   "dauer": [
+    56.9
+   ],
+   "kanaele": 1,
+   "schnitt": "Group discussion 3.ogg|bett|60|",
+   "quelle": {
+    "titel": "Group discussion 3.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Group_discussion_3.ogg",
+    "urheber": "ezwa",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "markt",
-   "name": "Rufende Menge",
+   "name": "Markt",
    "gruppe": "Orte",
    "art": "bett",
    "dateien": [
     "markt.ogg"
    ],
    "dauer": [
-    24.38
+    86.54
    ],
    "kanaele": 2,
-   "schnitt": "oga|crowd-shoutingspeaking-ambience|crowd_shouting_0.ogg|\"*\"|bett|90|",
+   "schnitt": "Leicester Market binaural recording (May 2011).ogg|bett|90|",
    "quelle": {
-    "titel": "Crowd Shouting/Speaking Ambience",
-    "seite": "https://opengameart.org/content/crowd-shoutingspeaking-ambience",
-    "urheber": "StarNinjas",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Leicester Market binaural recording (May 2011).ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Leicester_Market_binaural_recording_(May_2011).ogg",
+    "urheber": "NotFromUtrecht",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "markt-ferne",
+   "name": "Ferner Basar",
+   "gruppe": "Orte",
+   "art": "bett",
+   "dateien": [
+    "markt-ferne.ogg"
+   ],
+   "dauer": [
+    90.0
+   ],
+   "kanaele": 1,
+   "schnitt": "Market recorded audio.ogg|bett|90|",
+   "quelle": {
+    "titel": "Market recorded audio.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Market_recorded_audio.ogg",
+    "urheber": "Aishatu98",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "hufe-pflaster",
-   "name": "Pferd im Trab",
+   "name": "Hufe auf Pflaster",
    "gruppe": "Orte",
    "art": "bett",
    "dateien": [
     "hufe-pflaster.ogg"
    ],
    "dauer": [
-    9.45
+    90.0
    ],
-   "kanaele": 1,
-   "schnitt": "oga|horse-trotting|Trot.ogg|\"*\"|bett|90|",
+   "kanaele": 2,
+   "schnitt": "WWS Horseshoesonstonepavedstreet.ogg|bett|90|",
    "quelle": {
-    "titel": "Horse Trotting",
-    "seite": "https://opengameart.org/content/horse-trotting",
-    "urheber": "EZduzziteh",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "WWS Horseshoesonstonepavedstreet.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:WWS_Horseshoesonstonepavedstreet.ogg",
+    "urheber": "Work With Sounds / Torsten Nilsson",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "schafweide",
+   "name": "Schafweide",
+   "gruppe": "Orte",
+   "art": "bett",
+   "dateien": [
+    "schafweide.ogg"
+   ],
+   "dauer": [
+    25.11
+   ],
+   "kanaele": 2,
+   "schnitt": "Corner of a sheep field in summer.ogg|bett|28|",
+   "quelle": {
+    "titel": "Corner of a sheep field in summer.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Corner_of_a_sheep_field_in_summer.ogg",
+    "urheber": "earthcalling",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "windspiel",
+   "name": "Windspiel",
+   "gruppe": "Orte",
+   "art": "bett",
+   "dateien": [
+    "windspiel.ogg"
+   ],
+   "dauer": [
+    64.47
+   ],
+   "kanaele": 2,
+   "schnitt": "Windchime.ogg|bett|67|",
+   "quelle": {
+    "titel": "Windchime.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Windchime.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "glocken",
-   "name": "Kirchenglocke",
+   "name": "Kirchenglocken",
    "gruppe": "Orte",
    "art": "musik",
    "dateien": [
     "glocken.ogg"
    ],
    "dauer": [
-    4.58
+    48.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|church-bell|churchbell.flac|\"*\"|musik|48|",
+   "schnitt": "Church bells - Leverkusen, 2007.oga|musik|48|",
    "quelle": {
-    "titel": "Church Bell",
-    "seite": "https://opengameart.org/content/church-bell",
-    "urheber": "qubodup",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Church bells - Leverkusen, 2007.oga",
+    "seite": "https://commons.wikimedia.org/wiki/File:Church_bells_-_Leverkusen,_2007.oga",
+    "urheber": "natalie",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "musik-machaut",
-   "name": "The Old Tower Inn",
+   "name": "Douce Dame Jolie (Machaut)",
    "gruppe": "Musik",
    "art": "musik",
    "dateien": [
     "musik-machaut.ogg"
    ],
    "dauer": [
-    105.48
+    51.92
    ],
    "kanaele": 2,
-   "schnitt": "oga|medieval-the-old-tower-inn|The_Old_Tower_Inn.mp3|\"*\"|musik|120|",
+   "schnitt": "Machaut Douce Dame Jolie.ogg|musik|120|",
    "quelle": {
-    "titel": "Medieval: The Old Tower Inn",
-    "seite": "https://opengameart.org/content/medieval-the-old-tower-inn",
-    "urheber": "RandomMind",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Machaut Douce Dame Jolie.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Machaut_Douce_Dame_Jolie.ogg",
+    "urheber": "Future Perfect at Sunrise",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "musik-landini",
-   "name": "The Bard's Tale",
+   "name": "Ecco la primavera (Landini)",
    "gruppe": "Musik",
    "art": "musik",
    "dateien": [
     "musik-landini.ogg"
    ],
    "dauer": [
-    120.0
+    65.75
    ],
    "kanaele": 2,
-   "schnitt": "oga|medieval-the-bards-tale|The_Bards_Tale.mp3|\"*\"|musik|120|",
+   "schnitt": "Landini - Ecco la primavera.ogg|musik|120|",
    "quelle": {
-    "titel": "Medieval: The Bard's Tale",
-    "seite": "https://opengameart.org/content/medieval-the-bards-tale",
-    "urheber": "RandomMind",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Landini - Ecco la primavera.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Landini_-_Ecco_la_primavera.ogg",
+    "urheber": "Francesco Landini, versão midi de Tetraktys",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "musik-tanz",
-   "name": "Minstrel Dance",
+   "name": "Mittelalterlicher Tanz",
    "gruppe": "Musik",
    "art": "musik",
    "dateien": [
     "musik-tanz.ogg"
    ],
    "dauer": [
-    120.0
+    49.06
    ],
-   "kanaele": 2,
-   "schnitt": "oga|medieval-minstrel-dance|Minstrel_Dance_0.mp3|\"*\"|musik|120|",
+   "kanaele": 1,
+   "schnitt": "Discarded-ideas-org-wansti-ccbysa-medieval-dance.ogg|musik|120|",
    "quelle": {
-    "titel": "Medieval: Minstrel Dance",
-    "seite": "https://opengameart.org/content/medieval-minstrel-dance",
-    "urheber": "RandomMind",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Discarded-ideas-org-wansti-ccbysa-medieval-dance.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Discarded-ideas-org-wansti-ccbysa-medieval-dance.ogg",
+    "urheber": "Marek \"Wansti\" Möckel, discarded-ideas.org",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "musik-cum-altre",
-   "name": "King's Feast",
+   "name": "Cum altre ucele",
    "gruppe": "Musik",
    "art": "musik",
    "dateien": [
     "musik-cum-altre.ogg"
    ],
    "dauer": [
-    130.17
+    138.08
    ],
    "kanaele": 2,
-   "schnitt": "oga|medieval-kings-feast|Kings_Feast_0.mp3|\"*\"|musik|140|",
+   "schnitt": "Anonymous Cum altre ucele.ogg|musik|140|",
    "quelle": {
-    "titel": "Medieval: King's Feast",
-    "seite": "https://opengameart.org/content/medieval-kings-feast",
-    "urheber": "RandomMind",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Anonymous Cum altre ucele.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Anonymous_Cum_altre_ucele.ogg",
+    "urheber": "sequencing by User:Tetraktys",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "musik-grusel",
-   "name": "Creepy",
+   "name": "Horroriffic (Kevin MacLeod)",
    "gruppe": "Musik",
    "art": "musik",
    "dateien": [
     "musik-grusel.ogg"
    ],
    "dauer": [
-    89.32
+    168.07
    ],
    "kanaele": 2,
-   "schnitt": "oga|creepy|CrEEP.ogg|\"*\"|musik|170|",
+   "schnitt": "Kevin MacLeod - Horroriffic.ogg|musik|170|",
    "quelle": {
-    "titel": "Creepy",
-    "seite": "https://opengameart.org/content/creepy",
-    "urheber": "TokyoGeisha",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Kevin MacLeod - Horroriffic.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Horroriffic.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -762,21 +938,47 @@
     "donner-schlag-5.ogg"
    ],
    "dauer": [
-    2.83,
-    3.51,
-    3.17,
-    4.51,
-    4.99
+    12.0,
+    2.77,
+    0.97,
+    1.13,
+    1.15
    ],
    "kanaele": 2,
-   "schnitt": "oga|thunder-lightning-ambience-field-recording|gregor_quendel_-_free_thunder_ambience_-_mp3_0.mp3|\"*\"|einzel|12|5",
+   "schnitt": "Thunder Claps.ogg|einzel|12|5",
    "quelle": {
-    "titel": "Thunder / Lightning Ambience - Field Recording",
-    "seite": "https://opengameart.org/content/thunder-lightning-ambience-field-recording",
-    "urheber": "Gregor Quendel",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Thunder Claps.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Thunder_Claps.ogg",
+    "urheber": "Jonathan Hunt",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "donner-grollen",
+   "name": "Donnergrollen",
+   "gruppe": "Wetter",
+   "art": "einzel",
+   "dateien": [
+    "donner-grollen-1.ogg",
+    "donner-grollen-2.ogg",
+    "donner-grollen-3.ogg"
+   ],
+   "dauer": [
+    10.83,
+    5.23,
+    1.55
+   ],
+   "kanaele": 1,
+   "schnitt": "Booming Thunder 2023-10-09 2-07-34 am.ogg|einzel|15|3",
+   "quelle": {
+    "titel": "Booming Thunder 2023-10-09 2-07-34 am.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Booming_Thunder_2023-10-09_2-07-34_am.ogg",
+    "urheber": "KTerPalmers",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -788,17 +990,17 @@
     "donner-nah.ogg"
    ],
    "dauer": [
-    11.45
+    20.29
    ],
    "kanaele": 2,
-   "schnitt": "oga|thunder-very-close-rain-01|Thunder%2C%20Very%20Close%2C%20Rain%2C%2001.wav|\"*\"|einzel|25|",
+   "schnitt": "Nosferatu thunderclap - Richard Humphries.wav|einzel|25|",
    "quelle": {
-    "titel": "Thunder, Very Close, Rain, 01",
-    "seite": "https://opengameart.org/content/thunder-very-close-rain-01",
-    "urheber": "InspectorJ",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Nosferatu thunderclap - Richard Humphries.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:Nosferatu_thunderclap_-_Richard_Humphries.wav",
+    "urheber": "Richard Humphries",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -830,23 +1032,21 @@
    "art": "einzel",
    "dateien": [
     "kraehen-1.ogg",
-    "kraehen-2.ogg",
-    "kraehen-3.ogg"
+    "kraehen-2.ogg"
    ],
    "dauer": [
-    0.71,
-    1.23,
-    1.0
+    1.33,
+    1.21
    ],
    "kanaele": 1,
-   "schnitt": "oga|crows-singing|Crows.ogg|\"*\"|einzel|10|4",
+   "schnitt": "A flock of crows.flac|einzel|10|4",
    "quelle": {
-    "titel": "Crows singing",
-    "seite": "https://opengameart.org/content/crows-singing",
-    "urheber": "IgnasD",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "A flock of crows.flac",
+    "seite": "https://commons.wikimedia.org/wiki/File:A_flock_of_crows.flac",
+    "urheber": "Yosef Ben Melamed",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -855,42 +1055,58 @@
    "gruppe": "Tiere",
    "art": "einzel",
    "dateien": [
-    "kraehe.ogg"
+    "kraehe-1.ogg",
+    "kraehe-2.ogg",
+    "kraehe-3.ogg",
+    "kraehe-4.ogg",
+    "kraehe-5.ogg"
    ],
    "dauer": [
-    0.54
+    2.21,
+    0.91,
+    0.9,
+    3.47,
+    0.95
    ],
-   "kanaele": 2,
-   "schnitt": "oga|crow-caw|crow_caw.wav|\"*\"|einzel|6|0",
+   "kanaele": 1,
+   "schnitt": "Corvus corone - Carrion Crow XC463677.mp3|einzel|6|5",
    "quelle": {
-    "titel": "Crow caw",
-    "seite": "https://opengameart.org/content/crow-caw",
-    "urheber": "zeroisnotnull",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Corvus corone - Carrion Crow XC463677.mp3",
+    "seite": "https://commons.wikimedia.org/wiki/File:Corvus_corone_-_Carrion_Crow_XC463677.mp3",
+    "urheber": "Marie-Lan Taÿ Pamart",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "kauz",
-   "name": "Nachtvogel",
+   "name": "Waldkauz",
    "gruppe": "Tiere",
    "art": "einzel",
    "dateien": [
-    "kauz.ogg"
+    "kauz-1.ogg",
+    "kauz-2.ogg",
+    "kauz-3.ogg",
+    "kauz-4.ogg",
+    "kauz-5.ogg"
    ],
    "dauer": [
-    0.84
+    3.93,
+    3.85,
+    3.01,
+    1.93,
+    2.35
    ],
-   "kanaele": 1,
-   "schnitt": "oga|birdcricketfrog-and-mosquito-sounds|birdsCrickets.zip|\"*birdNight.wav\"|einzel|8|0",
+   "kanaele": 2,
+   "schnitt": "Strix aluco - Tawny Owl XC457393.mp3|einzel|8|5",
    "quelle": {
-    "titel": "Bird,cricket,frog and mosquito sounds",
-    "seite": "https://opengameart.org/content/birdcricketfrog-and-mosquito-sounds",
-    "urheber": "Aj_",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Strix aluco - Tawny Owl XC457393.mp3",
+    "seite": "https://commons.wikimedia.org/wiki/File:Strix_aluco_-_Tawny_Owl_XC457393.mp3",
+    "urheber": "Hannu Varkki",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -903,18 +1119,74 @@
     "schleiereule-2.ogg"
    ],
    "dauer": [
-    1.89,
-    1.91
+    1.67,
+    1.65
    ],
-   "kanaele": 2,
-   "schnitt": "oga|barn-owl-screech|barn_owl.zip|\"*\"|einzel|6|3",
+   "kanaele": 1,
+   "schnitt": "Barn Owl (Tyto alba) (W TYTO ALBA R1 C16).ogg|einzel|6|3",
    "quelle": {
-    "titel": "Barn Owl Screech",
-    "seite": "https://opengameart.org/content/barn-owl-screech",
-    "urheber": "AntumDeluge",
-    "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Barn Owl (Tyto alba) (W TYTO ALBA R1 C16).ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Barn_Owl_(Tyto_alba)_(W_TYTO_ALBA_R1_C16).ogg",
+    "urheber": "unbekannt",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "kuckuck",
+   "name": "Kuckuck",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "kuckuck-1.ogg",
+    "kuckuck-2.ogg",
+    "kuckuck-3.ogg",
+    "kuckuck-4.ogg"
+   ],
+   "dauer": [
+    1.54,
+    3.71,
+    2.99,
+    2.97
+   ],
+   "kanaele": 1,
+   "schnitt": "Cuckoo singing.ogg|einzel|8|4",
+   "quelle": {
+    "titel": "Cuckoo singing.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Cuckoo_singing.ogg",
+    "urheber": "Subhashish Panigrahi",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "specht",
+   "name": "Schwarzspecht",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "specht-1.ogg",
+    "specht-2.ogg",
+    "specht-3.ogg",
+    "specht-4.ogg"
+   ],
+   "dauer": [
+    2.73,
+    2.65,
+    0.75,
+    2.69
+   ],
+   "kanaele": 1,
+   "schnitt": "Spillkråka trummar - Dendrocopos martius..ogg|einzel|5|4",
+   "quelle": {
+    "titel": "Spillkråka trummar - Dendrocopos martius..ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Spillkr%C3%A5ka_trummar_-_Dendrocopos_martius..ogg",
+    "urheber": "Ljud: Jonn Leffmann",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -923,20 +1195,26 @@
    "gruppe": "Tiere",
    "art": "einzel",
    "dateien": [
-    "moewe.ogg"
+    "moewe-1.ogg",
+    "moewe-2.ogg",
+    "moewe-3.ogg",
+    "moewe-4.ogg"
    ],
    "dauer": [
-    3.27
+    3.49,
+    1.41,
+    1.29,
+    1.33
    ],
-   "kanaele": 2,
-   "schnitt": "oga|solo-seagull-sound-effects|Seagull%20Ambient%201.wav|\"*\"|einzel|6|4",
+   "kanaele": 1,
+   "schnitt": "Gull 1.ogg|einzel|6|4",
    "quelle": {
-    "titel": "Solo Seagull Sound Effects",
-    "seite": "https://opengameart.org/content/solo-seagull-sound-effects",
-    "urheber": "Rango Mango",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Gull 1.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Gull_1.ogg",
+    "urheber": "avphillips",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -946,89 +1224,101 @@
    "art": "einzel",
    "dateien": [
     "hund-1.ogg",
-    "hund-2.ogg"
+    "hund-2.ogg",
+    "hund-3.ogg"
    ],
    "dauer": [
-    1.06,
-    0.98
+    0.89,
+    0.97,
+    0.95
    ],
    "kanaele": 1,
-   "schnitt": "oga|dog-barking-mono|dog_barking_mono.wav|\"*\"|einzel|6|3",
+   "schnitt": "Barking dog in Rome.ogg|einzel|6|3",
    "quelle": {
-    "titel": "Dog barking mono",
-    "seite": "https://opengameart.org/content/dog-barking-mono",
-    "urheber": "HaelDB",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Barking dog in Rome.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Barking_dog_in_Rome.ogg",
+    "urheber": "Nicholas Gemini",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "hahn",
-   "name": "Huhn",
+   "name": "Hühnerhof",
    "gruppe": "Tiere",
    "art": "einzel",
    "dateien": [
     "hahn-1.ogg",
-    "hahn-2.ogg"
+    "hahn-2.ogg",
+    "hahn-3.ogg",
+    "hahn-4.ogg"
    ],
    "dauer": [
-    2.88,
-    2.88
+    8.0,
+    7.6,
+    4.95,
+    7.55
    ],
-   "kanaele": 2,
-   "schnitt": "oga|chicken-sound-effect|chicken_sound_effect.zip|\"*\"|einzel|8|4",
+   "kanaele": 1,
+   "schnitt": "Chicks and Cock Sound.ogg|einzel|8|4",
    "quelle": {
-    "titel": "Chicken Sound Effect",
-    "seite": "https://opengameart.org/content/chicken-sound-effect",
-    "urheber": "IMadeIt",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Chicks and Cock Sound.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Chicks_and_Cock_Sound.ogg",
+    "urheber": "Ready Street",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "ziegen",
-   "name": "Ziege",
+   "name": "Ziegen",
    "gruppe": "Tiere",
    "art": "einzel",
    "dateien": [
-    "ziegen.ogg"
+    "ziegen-1.ogg",
+    "ziegen-2.ogg",
+    "ziegen-3.ogg",
+    "ziegen-4.ogg"
    ],
    "dauer": [
-    1.22
+    0.92,
+    6.0,
+    1.99,
+    6.0
    ],
-   "kanaele": 1,
-   "schnitt": "oga|goat-bleat|snom-ringtone.wav|\"*\"|einzel|6|4",
+   "kanaele": 2,
+   "schnitt": "Herd of goats bleating.ogg|einzel|6|4",
    "quelle": {
-    "titel": "Goat bleat",
-    "seite": "https://opengameart.org/content/goat-bleat",
-    "urheber": "leone",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Herd of goats bleating.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Herd_of_goats_bleating.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "galopp",
-   "name": "Galopp",
+   "name": "Pferde galoppieren vorbei",
    "gruppe": "Tiere",
    "art": "einzel",
    "dateien": [
     "galopp.ogg"
    ],
    "dauer": [
-    6.0
+    24.7
    ],
-   "kanaele": 1,
-   "schnitt": "oga|horse-gallop-loop|gallop.zip|\"*gallop_01*\"|einzel|25|",
+   "kanaele": 2,
+   "schnitt": "Six Horses Galloping By.ogg|einzel|25|",
    "quelle": {
-    "titel": "Horse Gallop Loop",
-    "seite": "https://opengameart.org/content/horse-gallop-loop",
-    "urheber": "AntumDeluge",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Six Horses Galloping By.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Six_Horses_Galloping_By.ogg",
+    "urheber": "Freesound Community https://pixabay.com/users/freesound_community-46691455/ Bruno Auzet https://pixabay.com/sound-effects/nature-6-horses-gallopwav-14467/",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1045,22 +1335,22 @@
     "monster-6.ogg"
    ],
    "dauer": [
-    0.63,
-    0.65,
-    0.38,
-    0.34,
-    0.44,
-    0.39
+    2.49,
+    2.79,
+    2.07,
+    3.45,
+    2.51,
+    3.65
    ],
-   "kanaele": 2,
-   "schnitt": "oga|monster-sound-effects-pack|monster_sfx_pack.zip|\"monster_sfx_pack/monster-*.wav\"|einzel|8|6",
+   "kanaele": 1,
+   "schnitt": "Monster growls.ogg|einzel|8|6",
    "quelle": {
-    "titel": "Monster Sound Effects Pack",
-    "seite": "https://opengameart.org/content/monster-sound-effects-pack",
-    "urheber": "Ogrebane",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Monster growls.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Monster_growls.ogg",
+    "urheber": "stilgar",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1075,20 +1365,20 @@
     "monster-2-4.ogg"
    ],
    "dauer": [
-    0.95,
-    0.55,
-    0.69,
-    1.17
+    3.59,
+    4.49,
+    3.21,
+    5.21
    ],
-   "kanaele": 2,
-   "schnitt": "oga|80-cc0-creature-sfx|80-CC0-creature-SFX_0.zip|\"*monster_0*.ogg\"|einzel|8|4",
+   "kanaele": 1,
+   "schnitt": "Monster growls 2.ogg|einzel|8|4",
    "quelle": {
-    "titel": "80 CC0 creature SFX",
-    "seite": "https://opengameart.org/content/80-cc0-creature-sfx",
-    "urheber": "rubberduck",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Monster growls 2.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Monster_growls_2.ogg",
+    "urheber": "stilgar",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1097,22 +1387,20 @@
    "gruppe": "Ungeheuer",
    "art": "einzel",
    "dateien": [
-    "baer-1.ogg",
-    "baer-2.ogg"
+    "baer.ogg"
    ],
    "dauer": [
-    1.04,
-    1.16
+    9.37
    ],
    "kanaele": 1,
-   "schnitt": "oga|bear-growls|bear.zip|\"flac/bear_*.flac\"|einzel|10|",
+   "schnitt": "Bear growl.ogg|einzel|10|",
    "quelle": {
-    "titel": "Bear Growls",
-    "seite": "https://opengameart.org/content/bear-growls",
-    "urheber": "AntumDeluge",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Bear growl.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Bear_growl.ogg",
+    "urheber": "Shizhao",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1121,25 +1409,29 @@
    "gruppe": "Ungeheuer",
    "art": "einzel",
    "dateien": [
-    "keiler.ogg"
+    "keiler-1.ogg",
+    "keiler-2.ogg",
+    "keiler-3.ogg"
    ],
    "dauer": [
-    0.52
+    0.99,
+    1.03,
+    2.11
    ],
    "kanaele": 1,
-   "schnitt": "oga|boar-0|boar_0.ogg|\"*\"|einzel|8|3",
+   "schnitt": "Boar.Grwls(1).ogg|einzel|8|3",
    "quelle": {
-    "titel": "Boar",
-    "seite": "https://opengameart.org/content/boar-0",
-    "urheber": "fvcalderan",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Boar.Grwls(1).ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Boar.Grwls(1).ogg",
+    "urheber": "GrWolf1129",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "bruellen",
-   "name": "Trollgebrüll",
+   "name": "Tiefes Brüllen",
    "gruppe": "Ungeheuer",
    "art": "einzel",
    "dateien": [
@@ -1148,19 +1440,41 @@
     "bruellen-3.ogg"
    ],
    "dauer": [
-    1.41,
-    1.55,
-    2.13
+    2.91,
+    3.49,
+    3.45
    ],
-   "kanaele": 2,
-   "schnitt": "oga|big-scary-troll-sounds|troll-roars_0.ogg|\"*\"|einzel|8|3",
+   "kanaele": 1,
+   "schnitt": "Alligatorbellow1.ogg|einzel|8|3",
    "quelle": {
-    "titel": "Big scary troll sounds",
-    "seite": "https://opengameart.org/content/big-scary-troll-sounds",
-    "urheber": "Darsycho",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Alligatorbellow1.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Alligatorbellow1.ogg",
+    "urheber": "unbekannt",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "grusel-schritte",
+   "name": "Schritte, Schrei, Knurren",
+   "gruppe": "Ungeheuer",
+   "art": "einzel",
+   "dateien": [
+    "grusel-schritte.ogg"
+   ],
+   "dauer": [
+    16.92
+   ],
+   "kanaele": 1,
+   "schnitt": "Creepy footsteps and screaming and growl.wav|einzel|17|",
+   "quelle": {
+    "titel": "Creepy footsteps and screaming and growl.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:Creepy_footsteps_and_screaming_and_growl.wav",
+    "urheber": "Edisonisthebest",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1169,20 +1483,28 @@
    "gruppe": "Ungeheuer",
    "art": "einzel",
    "dateien": [
-    "schrei.ogg"
+    "schrei-1.ogg",
+    "schrei-2.ogg",
+    "schrei-3.ogg",
+    "schrei-4.ogg",
+    "schrei-5.ogg"
    ],
    "dauer": [
-    4.0
+    1.29,
+    1.21,
+    1.11,
+    1.51,
+    1.53
    ],
-   "kanaele": 2,
-   "schnitt": "oga|horror-scream1|scream_horror1_0.mp3|\"*\"|einzel|4|5",
+   "kanaele": 1,
+   "schnitt": "VOXScrm Man eaten by alligator; screams (Wilhelm CS USC).wav|einzel|4|5",
    "quelle": {
-    "titel": "Horror scream1",
-    "seite": "https://opengameart.org/content/horror-scream1",
-    "urheber": "Vinrax",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "VOXScrm Man eaten by alligator; screams (Wilhelm CS USC).wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:VOXScrm_Man_eaten_by_alligator;_screams_(Wilhelm_CS_USC).wav",
+    "urheber": "Sheb Wooley",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1194,22 +1516,22 @@
     "atmen.ogg"
    ],
    "dauer": [
-    2.38
+    30.0
    ],
    "kanaele": 1,
-   "schnitt": "oga|breathing-tired|breathing%20tired.wav|\"*\"|bett|30|",
+   "schnitt": "Heavy breathing 3.ogg|bett|30|",
    "quelle": {
-    "titel": "Breathing Tired",
-    "seite": "https://opengameart.org/content/breathing-tired",
-    "urheber": "mikeask",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Heavy breathing 3.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Heavy_breathing_3.ogg",
+    "urheber": "ezwa",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "metall",
-   "name": "Klingen klirren",
+   "name": "Klirrendes Metall",
    "gruppe": "Kampf",
    "art": "einzel",
    "dateien": [
@@ -1217,26 +1539,24 @@
     "metall-2.ogg",
     "metall-3.ogg",
     "metall-4.ogg",
-    "metall-5.ogg",
-    "metall-6.ogg"
+    "metall-5.ogg"
    ],
    "dauer": [
-    0.67,
-    0.68,
-    0.58,
-    0.73,
-    0.57,
-    0.55
+    0.7,
+    3.0,
+    3.0,
+    0.92,
+    0.73
    ],
    "kanaele": 1,
-   "schnitt": "oga|20-sword-sound-effects-attacks-and-clashes|sword_clash_-_starninjas_0.zip|\"*sword_clash.*\"|einzel|3|6",
+   "schnitt": "Metal Clanging Noises.ogg|einzel|3|6",
    "quelle": {
-    "titel": "20 Sword Sound Effects (Attacks and Clashes)",
-    "seite": "https://opengameart.org/content/20-sword-sound-effects-attacks-and-clashes",
-    "urheber": "StarNinjas",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Metal Clanging Noises.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Metal_Clanging_Noises.ogg",
+    "urheber": "Camshaft64",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1248,39 +1568,45 @@
     "schleifen.ogg"
    ],
    "dauer": [
-    0.39
+    19.62
    ],
-   "kanaele": 1,
-   "schnitt": "oga|knife-sharpening-slice-1|knifesharpener1.flac|\"*\"|einzel|20|",
+   "kanaele": 2,
+   "schnitt": "Amolador.flac|einzel|20|",
    "quelle": {
-    "titel": "Knife sharpening slice 1",
-    "seite": "https://opengameart.org/content/knife-sharpening-slice-1",
-    "urheber": "qubodup",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Amolador.flac",
+    "seite": "https://commons.wikimedia.org/wiki/File:Amolador.flac",
+    "urheber": "ML-Marques",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "bogen",
-   "name": "Bogenschuss",
+   "name": "Bogensehne",
    "gruppe": "Kampf",
    "art": "einzel",
    "dateien": [
-    "bogen.ogg"
+    "bogen-1.ogg",
+    "bogen-2.ogg",
+    "bogen-3.ogg",
+    "bogen-4.ogg"
    ],
    "dauer": [
-    0.44
+    1.23,
+    0.93,
+    1.35,
+    0.79
    ],
-   "kanaele": 1,
-   "schnitt": "oga|bow-arrow-shot|shoot.ogg|\"*\"|einzel|3|4",
+   "kanaele": 2,
+   "schnitt": "Deep twang of loose bow string.ogg|einzel|3|4",
    "quelle": {
-    "titel": "Bow & Arrow Shot",
-    "seite": "https://opengameart.org/content/bow-arrow-shot",
-    "urheber": "dorkster",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Deep twang of loose bow string.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Deep_twang_of_loose_bow_string.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1292,17 +1618,17 @@
     "explosion.ogg"
    ],
    "dauer": [
-    1.55
+    6.21
    ],
    "kanaele": 2,
-   "schnitt": "oga|2-high-quality-explosions|explosions.7z|\"*explode.wav\"|einzel|10|3",
+   "schnitt": "Explosions-LS100155.ogg|einzel|10|3",
    "quelle": {
-    "titel": "2 High Quality Explosions",
-    "seite": "https://opengameart.org/content/2-high-quality-explosions",
-    "urheber": "qubodup",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Explosions-LS100155.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Explosions-LS100155.ogg",
+    "urheber": "Fg2",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1314,39 +1640,39 @@
     "explosion-2.ogg"
    ],
    "dauer": [
-    1.44
+    4.91
    ],
    "kanaele": 2,
-   "schnitt": "oga|2-high-quality-explosions|explosions.7z|\"*explodemini.wav\"|einzel|5|",
+   "schnitt": "Explosions-LS100150.ogg|einzel|5|",
    "quelle": {
-    "titel": "2 High Quality Explosions",
-    "seite": "https://opengameart.org/content/2-high-quality-explosions",
-    "urheber": "qubodup",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Explosions-LS100150.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Explosions-LS100150.ogg",
+    "urheber": "Fg2",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "horn",
-   "name": "Mächtiges Horn",
+   "name": "Jagdhorn",
    "gruppe": "Kampf",
    "art": "einzel",
    "dateien": [
     "horn.ogg"
    ],
    "dauer": [
-    14.0
+    11.79
    ],
    "kanaele": 2,
-   "schnitt": "oga|scary-echoey-horn-esque-sound|Massive%20Horn.wav|\"*\"|einzel|14|",
+   "schnitt": "Hunting horn tone.ogg|einzel|14|",
    "quelle": {
-    "titel": "Scary Echoey Horn Esque Sound",
-    "seite": "https://opengameart.org/content/scary-echoey-horn-esque-sound",
-    "urheber": "Kat",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Hunting horn tone.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Hunting_horn_tone.ogg",
+    "urheber": "Alon-De-Lon",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1355,22 +1681,20 @@
    "gruppe": "Kampf",
    "art": "einzel",
    "dateien": [
-    "gong-1.ogg",
-    "gong-2.ogg"
+    "gong.ogg"
    ],
    "dauer": [
-    1.42,
-    1.04
+    9.34
    ],
-   "kanaele": 1,
-   "schnitt": "oga|100-cc0-sfx|100-CC0-SFX_0.zip|\"*gong_0*.ogg\"|einzel|10|",
+   "kanaele": 2,
+   "schnitt": "Gong55.ogg|einzel|10|",
    "quelle": {
-    "titel": "100 CC0 SFX",
-    "seite": "https://opengameart.org/content/100-cc0-sfx",
-    "urheber": "rubberduck",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Gong55.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Gong55.ogg",
+    "urheber": "stephan",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1382,17 +1706,17 @@
     "jubel.ogg"
    ],
    "dauer": [
-    12.0
+    11.49
    ],
-   "kanaele": 2,
-   "schnitt": "oga|free-crowd-cheering-sounds|gregor_quendel_-_free_crowd_cheering_sounds_-_mp3.zip|\"*03 - Strong cheering - I.mp3\"|einzel|12|",
+   "kanaele": 1,
+   "schnitt": "Clapping hurray.ogg|einzel|12|",
    "quelle": {
-    "titel": "Free Crowd Cheering Sounds",
-    "seite": "https://opengameart.org/content/free-crowd-cheering-sounds",
-    "urheber": "Gregor Quendel",
-    "lizenz": "CC BY 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Clapping hurray.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Clapping_hurray.ogg",
+    "urheber": "starlite",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1404,17 +1728,17 @@
     "applaus.ogg"
    ],
    "dauer": [
-    25.0
+    22.05
    ],
    "kanaele": 2,
-   "schnitt": "oga|applause-in-a-large-hall-or-church|applause-clapping-church-crowd-immersive.wav|\"*\"|einzel|25|",
+   "schnitt": "Applause-2.ogg|einzel|25|",
    "quelle": {
-    "titel": "Applause in a large hall or church",
-    "seite": "https://opengameart.org/content/applause-in-a-large-hall-or-church",
-    "urheber": "eXpl0it3r",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Applause-2.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Applause-2.ogg",
+    "urheber": "RHumphries",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1429,40 +1753,42 @@
     5.0
    ],
    "kanaele": 2,
-   "schnitt": "oga|creaky-light-wooden-door|creakylightwoodendoor.wav|\"*\"|einzel|5|",
+   "schnitt": "Door handle creaking.ogg|einzel|5|",
    "quelle": {
-    "titel": "Creaky light wooden door",
-    "seite": "https://opengameart.org/content/creaky-light-wooden-door",
-    "urheber": "fractilegames",
-    "lizenz": "CC BY 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Door handle creaking.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Door_handle_creaking.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "riegel",
-   "name": "Schloss",
+   "name": "Rostiger Riegel",
    "gruppe": "Dinge",
    "art": "einzel",
    "dateien": [
     "riegel-1.ogg",
     "riegel-2.ogg",
-    "riegel-3.ogg"
+    "riegel-3.ogg",
+    "riegel-4.ogg"
    ],
    "dauer": [
-    0.41,
-    0.39,
-    0.34
+    1.13,
+    1.25,
+    2.69,
+    1.75
    ],
-   "kanaele": 1,
-   "schnitt": "oga|80-cc0-rpg-sfx|80-CC0-RPG-SFX_0.zip|\"*lock_0*.ogg\"|einzel|5|4",
+   "kanaele": 2,
+   "schnitt": "Rusty metal door clasp.ogg|einzel|5|4",
    "quelle": {
-    "titel": "80 CC0 RPG SFX",
-    "seite": "https://opengameart.org/content/80-cc0-rpg-sfx",
-    "urheber": "rubberduck",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Rusty metal door clasp.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Rusty_metal_door_clasp.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1471,26 +1797,20 @@
    "gruppe": "Dinge",
    "art": "einzel",
    "dateien": [
-    "klopfen-1.ogg",
-    "klopfen-2.ogg",
-    "klopfen-3.ogg",
-    "klopfen-4.ogg"
+    "klopfen.ogg"
    ],
    "dauer": [
-    0.34,
-    0.39,
-    0.41,
-    0.3
+    5.25
    ],
-   "kanaele": 1,
-   "schnitt": "oga|100-cc0-metal-and-wood-sfx|100-CC0-wood-metal-SFX.zip|\"*wood_hit_0[1-4].ogg\"|einzel|6|",
+   "kanaele": 2,
+   "schnitt": "Knocking on wood or door.ogg|einzel|6|",
    "quelle": {
-    "titel": "100 CC0 metal and wood SFX",
-    "seite": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
-    "urheber": "rubberduck",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Knocking on wood or door.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Knocking_on_wood_or_door.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1502,17 +1822,17 @@
     "klopfen-2.ogg"
    ],
    "dauer": [
-    4.0
+    1.21
    ],
-   "kanaele": 2,
-   "schnitt": "oga|is-anybody-home|Is%20Anybody%20Home%3F.wav|\"*\"|einzel|4|",
+   "kanaele": 1,
+   "schnitt": "Knock on door.wav|einzel|4|",
    "quelle": {
-    "titel": "Is Anybody Home?",
-    "seite": "https://opengameart.org/content/is-anybody-home",
-    "urheber": "jdagenet",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Knock on door.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:Knock_on_door.wav",
+    "urheber": "Asud12",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1523,22 +1843,26 @@
    "dateien": [
     "muenzbeutel-1.ogg",
     "muenzbeutel-2.ogg",
-    "muenzbeutel-3.ogg"
+    "muenzbeutel-3.ogg",
+    "muenzbeutel-4.ogg",
+    "muenzbeutel-5.ogg"
    ],
    "dauer": [
-    0.6,
-    1.0,
-    0.31
+    4.53,
+    2.01,
+    1.61,
+    0.67,
+    0.67
    ],
-   "kanaele": 2,
-   "schnitt": "oga|rpg-sound-pack|rpg_sound_pack.zip|\"rpg sound pack/inventory/coin*.wav\"|einzel|5|5",
+   "kanaele": 1,
+   "schnitt": "Bag of coins.ogg|einzel|5|5",
    "quelle": {
-    "titel": "RPG Sound Pack",
-    "seite": "https://opengameart.org/content/rpg-sound-pack",
-    "urheber": "artisticdude",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Bag of coins.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Bag_of_coins.ogg",
+    "urheber": "cori",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1547,70 +1871,64 @@
    "gruppe": "Dinge",
    "art": "einzel",
    "dateien": [
-    "muenzen-1.ogg",
-    "muenzen-2.ogg",
-    "muenzen-3.ogg",
-    "muenzen-4.ogg"
+    "muenzen.ogg"
    ],
    "dauer": [
-    0.41,
-    0.62,
-    0.48,
-    1.6
+    3.27
    ],
    "kanaele": 1,
-   "schnitt": "oga|80-cc0-rpg-sfx|80-CC0-RPG-SFX_0.zip|\"*item_coins_0*.ogg\"|einzel|6|",
+   "schnitt": "Coins dropped on wooden floor.ogg|einzel|6|",
    "quelle": {
-    "titel": "80 CC0 RPG SFX",
-    "seite": "https://opengameart.org/content/80-cc0-rpg-sfx",
-    "urheber": "rubberduck",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Coins dropped on wooden floor.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Coins_dropped_on_wooden_floor.ogg",
+    "urheber": "ezwa",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "glocke",
-   "name": "Totenglocke",
+   "name": "Glockenschlag",
    "gruppe": "Dinge",
    "art": "einzel",
    "dateien": [
     "glocke.ogg"
    ],
    "dauer": [
-    4.4
+    3.15
    ],
-   "kanaele": 2,
-   "schnitt": "oga|death-bell|death_bell_sound_effect.wav|\"*\"|einzel|7|",
+   "kanaele": 1,
+   "schnitt": "Church Bells of Murbach.flac|einzel|7|",
    "quelle": {
-    "titel": "Death Bell",
-    "seite": "https://opengameart.org/content/death-bell",
-    "urheber": "Specter5053",
+    "titel": "Church Bells of Murbach.flac",
+    "seite": "https://commons.wikimedia.org/wiki/File:Church_Bells_of_Murbach.flac",
+    "urheber": "Amada44",
     "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "herkunft": "OpenGameArt"
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
    "id": "wendeltreppe",
-   "name": "Schritte auf Steinstufen",
+   "name": "Schritte auf der Wendeltreppe",
    "gruppe": "Dinge",
    "art": "einzel",
    "dateien": [
     "wendeltreppe.ogg"
    ],
    "dauer": [
-    1.9
+    16.79
    ],
-   "kanaele": 1,
-   "schnitt": "oga|stone-stair-steps|stairs.ogg|\"*\"|einzel|18|",
+   "kanaele": 2,
+   "schnitt": "Pasos en escalera de caracol.ogg|einzel|18|",
    "quelle": {
-    "titel": "Stone stair steps",
-    "seite": "https://opengameart.org/content/stone-stair-steps",
-    "urheber": "dorkster",
-    "lizenz": "CC BY-SA 3.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Pasos en escalera de caracol.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Pasos_en_escalera_de_caracol.ogg",
+    "urheber": "Hippocampuz",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1619,30 +1937,48 @@
    "gruppe": "Dinge",
    "art": "einzel",
    "dateien": [
-    "schnee-schritte-1.ogg",
-    "schnee-schritte-2.ogg",
-    "schnee-schritte-3.ogg",
-    "schnee-schritte-4.ogg",
-    "schnee-schritte-5.ogg",
-    "schnee-schritte-6.ogg"
+    "schnee-schritte.ogg"
    ],
    "dauer": [
-    0.41,
-    0.68,
-    0.65,
-    0.58,
-    0.64,
-    0.67
+    11.65
    ],
    "kanaele": 1,
-   "schnitt": "oga|42-snow-and-gravel-footsteps|corsica_s-walking_in_snow.7z|\"*snow_covered_gravel_0[1-6].flac\"|einzel|13|",
+   "schnitt": "Man walking on the snow.ogg|einzel|13|",
    "quelle": {
-    "titel": "42 Snow and Gravel Footsteps",
-    "seite": "https://opengameart.org/content/42-snow-and-gravel-footsteps",
-    "urheber": "qubodup",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Man walking on the snow.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Man_walking_on_the_snow.ogg",
+    "urheber": "Clément Bucco-Lechat",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "seufzer",
+   "name": "Seufzer",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "seufzer-1.ogg",
+    "seufzer-2.ogg",
+    "seufzer-3.ogg",
+    "seufzer-4.ogg"
+   ],
+   "dauer": [
+    1.11,
+    0.97,
+    1.21,
+    0.81
+   ],
+   "kanaele": 1,
+   "schnitt": "Four sighs.ogg|einzel|4|4",
+   "quelle": {
+    "titel": "Four sighs.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Four_sighs.ogg",
+    "urheber": "ezwa",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1654,17 +1990,163 @@
     "zauber.ogg"
    ],
    "dauer": [
-    1.47
+    2.83
    ],
    "kanaele": 2,
-   "schnitt": "oga|magic-spell-sfx|magical_1_0.ogg|\"*\"|einzel|4|",
+   "schnitt": "Spell 2 (Gravity Sound).mp3|einzel|4|",
    "quelle": {
-    "titel": "Magic Spell SFX",
-    "seite": "https://opengameart.org/content/magic-spell-sfx",
-    "urheber": "JaggedStone",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Spell 2 (Gravity Sound).mp3",
+    "seite": "https://commons.wikimedia.org/wiki/File:Spell_2_(Gravity_Sound).mp3",
+    "urheber": "Gravity Sound",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "pferd",
+   "name": "Pferd wiehert",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "pferd.ogg"
+   ],
+   "dauer": [
+    0.89
+   ],
+   "kanaele": 1,
+   "schnitt": "LL-Q1860 (eng)-Jjamesryan-neigh.wav|einzel|4|",
+   "quelle": {
+    "titel": "LL-Q1860 (eng)-Jjamesryan-neigh.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Jjamesryan-neigh.wav",
+    "urheber": "Speaker: Jjamesryan Recorder: Jjamesryan",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "katze",
+   "name": "Katze",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "katze-1.ogg",
+    "katze-2.ogg",
+    "katze-3.ogg",
+    "katze-4.ogg",
+    "katze-5.ogg"
+   ],
+   "dauer": [
+    2.47,
+    2.11,
+    1.29,
+    2.01,
+    1.31
+   ],
+   "kanaele": 1,
+   "schnitt": "Audio file of cat meowing.ogg|einzel|4|5",
+   "quelle": {
+    "titel": "Audio file of cat meowing.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Audio_file_of_cat_meowing.ogg",
+    "urheber": "Yair Haklai",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "kuh",
+   "name": "Kuh",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "kuh.ogg"
+   ],
+   "dauer": [
+    0.93
+   ],
+   "kanaele": 1,
+   "schnitt": "Cow in Antefasy.wav|einzel|4|",
+   "quelle": {
+    "titel": "Cow in Antefasy.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:Cow_in_Antefasy.wav",
+    "urheber": "Gasybeaugosse2020",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "schwein",
+   "name": "Schwein",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "schwein.ogg"
+   ],
+   "dauer": [
+    0.69
+   ],
+   "kanaele": 1,
+   "schnitt": "LL-Q1860 (eng)-Flame, not lame-oink.wav|einzel|3|",
+   "quelle": {
+    "titel": "LL-Q1860 (eng)-Flame, not lame-oink.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:LL-Q1860_(eng)-Flame,_not_lame-oink.wav",
+    "urheber": "Speaker: Flame, not lame Recorder: Flame, not lame",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "uhu",
+   "name": "Uhu",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "uhu-1.ogg",
+    "uhu-2.ogg",
+    "uhu-3.ogg",
+    "uhu-4.ogg"
+   ],
+   "dauer": [
+    1.31,
+    1.29,
+    1.29,
+    1.33
+   ],
+   "kanaele": 2,
+   "schnitt": "BuboBuboMariankaSlovakia2012.ogg|einzel|5|4",
+   "quelle": {
+    "titel": "BuboBuboMariankaSlovakia2012.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:BuboBuboMariankaSlovakia2012.ogg",
+    "urheber": "Michal Noga",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "hummel",
+   "name": "Hummel",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "hummel.ogg"
+   ],
+   "dauer": [
+    6.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Bombus buzz.ogg|einzel|6|",
+   "quelle": {
+    "titel": "Bombus buzz.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Bombus_buzz.ogg",
+    "urheber": "Mysid",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1764,6 +2246,28 @@
    }
   },
   {
+   "id": "gelaechter",
+   "name": "Gelächter",
+   "gruppe": "Menschen",
+   "art": "einzel",
+   "dateien": [
+    "gelaechter.ogg"
+   ],
+   "dauer": [
+    1.15
+   ],
+   "kanaele": 2,
+   "schnitt": "72843 lonemonk approx-800-laughter-only-1.wav|einzel|6|3",
+   "quelle": {
+    "titel": "72843 lonemonk approx-800-laughter-only-1.wav",
+    "seite": "https://commons.wikimedia.org/wiki/File:72843_lonemonk_approx-800-laughter-only-1.wav",
+    "urheber": "lonemonk on freesound.org",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
    "id": "schnarchen",
    "name": "Schnarchen",
    "gruppe": "Menschen",
@@ -1859,6 +2363,50 @@
     "lizenz": "CC BY 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
     "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "kinder",
+   "name": "Spielende Kinder",
+   "gruppe": "Orte",
+   "art": "bett",
+   "dateien": [
+    "kinder.ogg"
+   ],
+   "dauer": [
+    27.03
+   ],
+   "kanaele": 1,
+   "schnitt": "Ambient sound children playing in a park 2026-05-19.oga|bett|30|",
+   "quelle": {
+    "titel": "Ambient sound children playing in a park 2026-05-19.oga",
+    "seite": "https://commons.wikimedia.org/wiki/File:Ambient_sound_children_playing_in_a_park_2026-05-19.oga",
+    "urheber": "SchlurcherBot",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "karren",
+   "name": "Karren auf dem Weg",
+   "gruppe": "Orte",
+   "art": "einzel",
+   "dateien": [
+    "karren.ogg"
+   ],
+   "dauer": [
+    25.0
+   ],
+   "kanaele": 1,
+   "schnitt": "Charrette roumanie.ogg|einzel|25|",
+   "quelle": {
+    "titel": "Charrette roumanie.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Charrette_roumanie.ogg",
+    "urheber": "Drong~commonswiki",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -2236,6 +2784,28 @@
    }
   },
   {
+   "id": "uhr",
+   "name": "Tickende Uhr",
+   "gruppe": "Dinge",
+   "art": "bett",
+   "dateien": [
+    "uhr.ogg"
+   ],
+   "dauer": [
+    15.36
+   ],
+   "kanaele": 1,
+   "schnitt": "Clock (tic tac).ogg|bett|18|",
+   "quelle": {
+    "titel": "Clock (tic tac).ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Clock_(tic_tac).ogg",
+    "urheber": "Saaabaaato",
+    "lizenz": "CC0",
+    "lizenzUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
    "id": "nekromant",
    "name": "Nekromanten-Gesang",
    "gruppe": "Magie",
@@ -2255,6 +2825,270 @@
     "lizenz": "CC BY 4.0",
     "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
     "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "musik-choral",
+   "name": "Gregorianischer Gesang",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-choral.ogg"
+   ],
+   "dauer": [
+    53.25
+   ],
+   "kanaele": 2,
+   "schnitt": "Ecce.lignum.Crucis.ogg|musik|60|",
+   "quelle": {
+    "titel": "Ecce.lignum.Crucis.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Ecce.lignum.Crucis.ogg",
+    "urheber": "Membeth",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-orgel",
+   "name": "Orgel und Gesang",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-orgel.ogg"
+   ],
+   "dauer": [
+    90.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Christian mass organ play and singing.ogg|musik|90|",
+   "quelle": {
+    "titel": "Christian mass organ play and singing.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Christian_mass_organ_play_and_singing.ogg",
+    "urheber": "stephan",
+    "lizenz": "Public domain",
+    "lizenzUrl": "",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-harfe",
+   "name": "Medieval Dream (Harfe)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-harfe.ogg"
+   ],
+   "dauer": [
+    140.53
+   ],
+   "kanaele": 2,
+   "schnitt": "Medieval Dream by Frank Schröter.ogg|musik|150|",
+   "quelle": {
+    "titel": "Medieval Dream by Frank Schröter.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Medieval_Dream_by_Frank_Schr%C3%B6ter.ogg",
+    "urheber": "Frank Schröter",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-festmahl",
+   "name": "Master of the Feast (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-festmahl.ogg"
+   ],
+   "dauer": [
+    180.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Master of the Feast.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Master of the Feast.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Master_of_the_Feast.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-dorf",
+   "name": "Thatched Villagers (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-dorf.ogg"
+   ],
+   "dauer": [
+    180.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Thatched Villagers.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Thatched Villagers.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Thatched_Villagers.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-pippin",
+   "name": "Pippin the Hunchback (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-pippin.ogg"
+   ],
+   "dauer": [
+    180.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Pippin the Hunchback.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Pippin the Hunchback.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Pippin_the_Hunchback.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-angevin",
+   "name": "Angevin 70 (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-angevin.ogg"
+   ],
+   "dauer": [
+    180.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Angevin 70.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Angevin 70.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Angevin_70.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-tempel",
+   "name": "Temple of the Manes (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-tempel.ogg"
+   ],
+   "dauer": [
+    155.61
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Temple of the Manes.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Temple of the Manes.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Temple_of_the_Manes.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-ritual",
+   "name": "Ritual (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-ritual.ogg"
+   ],
+   "dauer": [
+    180.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Ritual.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Ritual.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Ritual.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-zauber",
+   "name": "Enchanted Journey (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-zauber.ogg"
+   ],
+   "dauer": [
+    180.0
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Enchanted Journey.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Enchanted Journey.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Enchanted_Journey.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-wald",
+   "name": "The Forest and the Trees (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-wald.ogg"
+   ],
+   "dauer": [
+    94.25
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - The Forest and the Trees.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - The Forest and the Trees.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_The_Forest_and_the_Trees.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
+   }
+  },
+  {
+   "id": "musik-geister",
+   "name": "Ghost Dance (Kevin MacLeod)",
+   "gruppe": "Musik",
+   "art": "musik",
+   "dateien": [
+    "musik-geister.ogg"
+   ],
+   "dauer": [
+    73.33
+   ],
+   "kanaele": 2,
+   "schnitt": "Kevin MacLeod - Ghost Dance.ogg|musik|180|",
+   "quelle": {
+    "titel": "Kevin MacLeod - Ghost Dance.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Kevin_MacLeod_-_Ghost_Dance.ogg",
+    "urheber": "Kevin MacLeod",
+    "lizenz": "CC BY 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
