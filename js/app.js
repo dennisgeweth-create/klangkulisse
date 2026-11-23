@@ -851,7 +851,7 @@ function dialogQuellen() {
   return [
     fensterKopf('Quellen & Lizenzen'),
     h('div', { class: 'fenster-innen' },
-      h('p', null, 'Die Aufnahmen stammen von Wikimedia Commons und stehen unter freien Lizenzen (CC0, gemeinfrei, CC BY, CC BY-SA). Sie wurden zugeschnitten, zu Schleifen geblendet und neu kodiert. Die erzeugten Klänge (Regen, Wind, Feuer, Donner …) rechnet die Klangkulisse selbst.'),
+      h('p', null, 'Die Aufnahmen stammen von Wikimedia Commons und OpenGameArt und stehen unter freien Lizenzen (CC0, gemeinfrei, CC BY, CC BY-SA). Sie wurden zugeschnitten, zu Schleifen geblendet und neu kodiert. Die erzeugten Klänge (Regen, Wind, Feuer, Donner …) rechnet die Klangkulisse selbst.'),
       !z.katalog.length ? h('p', { class: 'hinweis' }, 'Noch keine Aufnahmen geladen.') : null,
       gruppen.map((g) => h('div', null,
         h('h3', null, g),

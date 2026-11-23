@@ -7,7 +7,7 @@ Raumklang für den Spieltisch: Szenen für Taverne, Lagerfeuer, Gewitter, Höhle
 - **Subwoofer** (LFE) bekommt nur, was durch 120 Hz passt. Donner, Trommeln, Drachenbrüllen und Erdgrollen schicken ihm ihren Anteil.
 - **Geräuschleiste:** Donnerschlag, Tür, Wolf, Explosion und mehr auf Klick, aus der Richtung, die ihr am Kompass wählt.
 - **Erzeugte Klänge:** Regen, Wind, Feuer, Bach, Brandung, Grillen, Donner, Herzschlag, Kriegstrommeln, Klangflächen und Zauber rechnet die Seite selbst. Sie sind lizenzfrei, endlos und ohne Download. Jede Szene spielt damit auch dann, wenn keine einzige Aufnahme da ist.
-- **Aufnahmen** von Wikimedia Commons (CC0, gemeinfrei, CC BY, CC BY-SA), zurechtgeschnitten und zu nahtlosen Schleifen geblendet. Siehe [QUELLEN.md](QUELLEN.md).
+- **Aufnahmen** von Wikimedia Commons, ersatzweise von OpenGameArt (CC0, gemeinfrei, CC BY, CC BY-SA), zurechtgeschnitten und zu nahtlosen Schleifen geblendet. Siehe [QUELLEN.md](QUELLEN.md).
 - **Eigene Klänge** per Drag & Drop. Sie bleiben im Browser (IndexedDB).
 - **Eigene Szenen** speichern, als JSON sichern und auf einem anderen Rechner laden.
 
@@ -61,7 +61,7 @@ Szenenbus (zum Überblenden) ◄────────────────
 | `js/speicher.js` | Einstellungen und Szenen (localStorage), eigene Klänge (IndexedDB) |
 | `js/app.js` | die Oberfläche, ohne Framework |
 | `klaenge/` | die geschnittenen Aufnahmen (Opus) und `katalog.json`. Erzeugt, nicht von Hand ändern |
-| `werkzeug/auswahl.json` | **welche** Aufnahmen von Commons, wie sie heißen und wie sie geschnitten werden |
+| `werkzeug/auswahl.json` | **welche** Aufnahmen von Commons (und welcher Ersatz von OpenGameArt), wie sie heißen und wie sie geschnitten werden |
 | `werkzeug/klaenge-holen.py` | holt, schneidet, pegelt und kodiert; schreibt Katalog und `QUELLEN.md` |
 | `werkzeug/commons-suche.py` | sucht auf Commons nach Audiodateien und zeigt Lizenz, Länge und Größe |
 | `test/pruefen.mjs` | die Rechnung ohne Browser (`node test/pruefen.mjs`) |
@@ -74,13 +74,15 @@ python3 werkzeug/klaenge-holen.py            # alle aus der Auswahl
 python3 werkzeug/klaenge-holen.py wolf kauz  # nur diese
 ```
 
-Das braucht ffmpeg (mit libopus) und numpy. Ohne lokale Werkzeuge geht es auch über GitHub: **Actions → Klänge holen → Run workflow**. Die Action holt, schneidet, prüft und committet `klaenge/`.
+Das braucht ffmpeg (mit libopus) und numpy, für die .7z-Pakete von OpenGameArt auch 7-Zip. Ohne lokale Werkzeuge geht es auch über GitHub: **Actions → Klänge holen → Run workflow**. Die Action holt, schneidet, prüft und committet `klaenge/`.
 
 Was mit einer Aufnahme geschieht, sagt ihre `art` in der Auswahl:
 
 - `bett`: das ruhigste Stück von `max` Sekunden (wenige Ausreißer wie Griffgeräusche), Ende in den Anfang geblendet, Lautheit angeglichen
 - `einzel`: Stille vorn und hinten weg; mit `teilen: n` in die n lautesten Einzelgeräusche zerlegt
 - `musik`: von vorn, aus- und eingeblendet
+
+Erste Wahl ist Wikimedia Commons (`titel`). Die meisten Einträge haben zusätzlich einen Ersatz von [OpenGameArt](https://opengameart.org) (`oga`: Seite, Datei, bei Paketen ein Muster für die Datei darin). Der springt ein, wenn Commons drosselt, die Datei fehlt oder die Lizenz nicht passt. Urheber und Lizenz liest das Werkzeug von der OpenGameArt-Seite; von mehreren Lizenzen nimmt es die freieste, OGA-BY und GPL nie. Ein späterer Lauf, bei dem Commons antwortet, ersetzt den Ersatz durch die Commons-Aufnahme. `KK_OHNE_COMMONS=1` nimmt gleich den Ersatz.
 
 Wikimedia drosselt Rechenzentrums-Adressen (Cloud, GitHub Actions) oft hart (HTTP 429). Das Werkzeug hält sich an `Retry-After`, bricht nach einigen Absagen ab und behält, was es hat. Ein späterer Lauf macht dort weiter, schon geschnittene Klänge bleiben unangetastet. Bleibt die Action hängen, geht es am schnellsten vom eigenen Rechner aus, denn eine Heimadresse wird kaum gedrosselt. Unter Windows:
 

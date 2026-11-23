@@ -24,10 +24,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: ffmpeg und numpy
+      - name: ffmpeg, 7-Zip und numpy
         run: |
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg
+          sudo apt-get install -y -qq ffmpeg p7zip-full
           pip install --quiet numpy
 
       - name: Rohdateien aus dem Cache
