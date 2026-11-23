@@ -2,7 +2,7 @@
 //   localStorage  Einstellungen und eigene Szenen
 //   IndexedDB     eigene Klangdateien (können groß sein)
 
-const SCHLUESSEL = { einst: 'kk_einst', szenen: 'kk_szenen' };
+const SCHLUESSEL = { einst: 'kk_einst', szenen: 'kk_szenen', gruppen: 'kk_gruppen' };
 
 function lesen(k, vorgabe) {
   try {
@@ -25,6 +25,12 @@ function schreiben(k, wert) {
 export const einstellungen = {
   lesen: () => lesen(SCHLUESSEL.einst, {}),
   schreiben: (e) => schreiben(SCHLUESSEL.einst, e),
+};
+
+// Welche Gruppen der Szenenliste aufgeklappt sind.
+export const offeneGruppen = {
+  lesen: () => lesen(SCHLUESSEL.gruppen, null),
+  schreiben: (liste) => schreiben(SCHLUESSEL.gruppen, liste),
 };
 
 export const eigeneSzenen = {

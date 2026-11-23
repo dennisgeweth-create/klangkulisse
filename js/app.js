@@ -5,8 +5,8 @@
 import { Motor } from './motor.js';
 import { AUFSTELLUNGEN, KANALFOLGEN, KANALFOLGE_NAMEN, normWinkel } from './raum.js';
 import { ERZEUGER } from './synth.js';
-import { SZENEN, LEISTE } from './szenen.js';
-import { einstellungen, eigeneSzenen, eigeneKlaenge } from './speicher.js';
+import { SZENEN, LEISTE, GRUPPEN } from './szenen.js';
+import { einstellungen, eigeneSzenen, eigeneKlaenge, offeneGruppen } from './speicher.js';
 
 // ── DOM-Helfer ─────────────────────────────────────────────────────
 
@@ -57,6 +57,9 @@ const z = {
   dialog: null,
   filter: '',
   meldungen: [],
+  // Aufgeklappte Gruppen der Szenenliste (gemerkt); anfangs nur die erste.
+  gruppenAuf: new Set(offeneGruppen.lesen() || [GRUPPEN[0].name]),
+  szenenSuche: '',
 };
 
 let motor = null;
@@ -309,40 +312,81 @@ function zeichneKopf() {
           oninput: (e) => { z.einst.pegel = +e.target.value; if (motor && motor.ctx) motor.einstellen({ pegel: z.einst.pegel }); },
           onchange: einstSichern,
         })),
-      h('button', { class: 'knopf warn', onclick: allesAus, disabled: !z.aktiv, title: 'Alles ausblenden' }, '⏹ Stille'),
+      h('button', { class: 'knopf warn', onclick: allesAus, disabled: !z.gestartet, title: 'Alles ausblenden: Szene und Geräusche' }, '⏹ Stille'),
       h('button', { class: 'knopf', onclick: () => dialogAuf('klaenge') }, '📁 Eigene Klänge'),
       h('button', { class: 'knopf', onclick: () => dialogAuf('einst') }, '⚙ Ausgang')));
 }
 
 function zeichneSzenen() {
-  const gruppen = new Map();
-  for (const s of alleSzenen()) {
-    if (!gruppen.has(s.gruppe)) gruppen.set(s.gruppe, []);
-    gruppen.get(s.gruppe).push(s);
-  }
   ersetzen($('#szenen'),
     h('div', { class: 'spalten-kopf' }, h('h2', null, 'Szenen'),
       h('button', { class: 'knopf klein', onclick: neueSzene, title: 'Leere Szene anlegen' }, '+ Neu')),
-    [...gruppen].map(([g, liste]) => h('div', { class: 'gruppe' },
-      h('h3', null, g),
-      liste.map((s) => {
-        const fehlen = s.ebenen.filter((e) => !waehlen(e.klang)).length;
-        const aktiv = z.aktiv && z.aktiv.id === s.id;
-        return h('button', {
-          class: 'szene' + (aktiv ? ' aktiv' : ''),
-          onclick: () => szeneSpielen(s),
-          title: s.beschreibung + (fehlen ? `\n${fehlen} Klang/Klänge fehlen.` : ''),
-        },
-        h('span', { class: 'symbol' }, s.symbol || '🎧'),
-        h('span', { class: 'szene-text' },
-          h('b', null, s.name),
-          h('small', null, s.beschreibung || `${s.ebenen.length} Ebenen`)),
-        fehlen ? h('span', { class: 'fehlt', title: `${fehlen} Klang/Klänge fehlen` }, fehlen) : null);
-      }))),
+    h('input', {
+      class: 'suche szenen-suche', type: 'search', placeholder: 'Szene suchen … (Taverne, Regen, Gruft)',
+      value: z.szenenSuche, 'aria-label': 'Szene suchen',
+      oninput: (e) => { z.szenenSuche = e.target.value; zeichneSzenenListe(); },
+    }),
+    h('div', { class: 'szenen-liste' }),
     h('div', { class: 'szenen-fuss' },
       h('button', { class: 'knopf klein', onclick: szenenAusfuhr, disabled: !z.eigeneSzenen.length }, '⇩ Eigene sichern'),
       h('label', { class: 'knopf klein' }, '⇧ Laden',
         h('input', { type: 'file', accept: '.json,application/json', hidden: true, onchange: (e) => e.target.files[0] && szenenEinfuhr(e.target.files[0]) }))));
+  zeichneSzenenListe();
+}
+
+// Die Gruppen der Szenenliste, aufklappbar. Beim Suchen ist alles offen, was passt;
+// die Gruppe der laufenden Szene ist immer offen.
+function zeichneSzenenListe() {
+  const ziel = $('#szenen .szenen-liste');
+  if (!ziel) return;
+  const suche = z.szenenSuche.trim().toLowerCase();
+  const gruppen = new Map(GRUPPEN.map((g) => [g.name, []]));
+  for (const s of alleSzenen()) {
+    if (suche && !`${s.name} ${s.beschreibung || ''} ${s.gruppe}`.toLowerCase().includes(suche)) continue;
+    if (!gruppen.has(s.gruppe)) gruppen.set(s.gruppe, []);
+    gruppen.get(s.gruppe).push(s);
+  }
+  const symbol = (g) => (GRUPPEN.find((x) => x.name === g) || { symbol: '🎧' }).symbol;
+  const umschalten = (g) => {
+    if (z.gruppenAuf.has(g)) z.gruppenAuf.delete(g);
+    else z.gruppenAuf.add(g);
+    offeneGruppen.schreiben([...z.gruppenAuf]);
+    zeichneSzenenListe();
+  };
+  const liste = [...gruppen].filter(([, l]) => l.length);
+  ersetzen(ziel,
+    !liste.length ? h('p', { class: 'fein mitte' }, 'Keine Szene passt.') : null,
+    liste.map(([g, l]) => {
+      const laeuft = z.aktiv && l.some((s) => s.id === z.aktiv.id);
+      const auf = !!suche || laeuft || z.gruppenAuf.has(g);
+      return h('div', { class: 'gruppe' + (auf ? ' auf' : '') },
+        h('button', {
+          class: 'gruppe-kopf', 'aria-expanded': String(auf), disabled: !!suche || laeuft,
+          title: laeuft ? 'Hier läuft gerade eine Szene' : (auf ? 'Zuklappen' : 'Aufklappen'),
+          onclick: () => umschalten(g),
+        },
+        h('span', { class: 'pfeil' }, auf ? '▾' : '▸'),
+        h('span', { class: 'gruppe-symbol' }, symbol(g)),
+        h('span', { class: 'gruppe-name' }, g),
+        laeuft ? h('span', { class: 'gruppe-laeuft', title: 'läuft' }, '●') : null,
+        h('span', { class: 'gruppe-zahl' }, l.length)),
+        auf ? h('div', { class: 'gruppe-inhalt' }, l.map(szenenKnopf)) : null);
+    }));
+}
+
+function szenenKnopf(s) {
+  const fehlen = s.ebenen.filter((e) => !waehlen(e.klang)).length;
+  const aktiv = z.aktiv && z.aktiv.id === s.id;
+  return h('button', {
+    class: 'szene' + (aktiv ? ' aktiv' : ''),
+    onclick: () => szeneSpielen(s),
+    title: s.beschreibung + (fehlen ? `\n${fehlen} Klang/Klänge fehlen.` : ''),
+  },
+  h('span', { class: 'symbol' }, s.symbol || '🎧'),
+  h('span', { class: 'szene-text' },
+    h('b', null, s.name),
+    h('small', null, s.beschreibung || `${s.ebenen.length} Ebenen`)),
+  fehlen ? h('span', { class: 'fehlt', title: `${fehlen} Klang/Klänge fehlen` }, fehlen) : null);
 }
 
 // ── Die Bühne: laufende Szene ──────────────────────────────────────

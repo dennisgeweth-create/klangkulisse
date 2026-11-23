@@ -74,12 +74,25 @@ for (const [breite, hoehe, name] of [[1400, 900, 'breit'], [390, 844, 'schmal']]
   seite.on('pageerror', (e) => konsole.push('Seite: ' + e.message));
   seite.on('console', (m) => m.type() === 'error' && konsole.push('Konsole: ' + m.text()));
   await seite.goto(URL);
-  await seite.waitForSelector('.szene');
-  const szenen = await seite.locator('.szene').count();
-  pruefe(szenen >= 15, `${name}: Szenenliste zeigt ${szenen} Szenen`);
+  // Szenen liegen in aufklappbaren Gruppen; eine Szene findet man über die Suche.
+  const szeneKlicken = async (text) => {
+    await seite.fill('.szenen-suche', text);
+    await seite.locator('.szene', { hasText: text }).first().click();
+    await seite.fill('.szenen-suche', '');
+  };
+  await seite.waitForSelector('.gruppe-kopf');
+  const gruppen = await seite.locator('.gruppe-kopf').count();
+  pruefe(gruppen >= 8, `${name}: Szenenliste zeigt ${gruppen} Gruppen`);
+  const zu = seite.locator('.gruppe:not(.auf) .gruppe-kopf').first();
+  const vorher = await seite.locator('.szene').count();
+  await zu.click();
+  pruefe(await seite.locator('.szene').count() > vorher, `${name}: eine Gruppe klappt auf`);
+  await seite.fill('.szenen-suche', 'Gewitter');
+  pruefe(await seite.locator('.szene').count() >= 2, `${name}: die Suche findet die Gewitter-Szenen`);
+  await seite.fill('.szenen-suche', '');
   await seite.getByRole('button', { name: '▶ Klang einschalten' }).click();
   await seite.waitForSelector('.chip.mittel, .chip.gut');
-  await seite.locator('.szene', { hasText: 'Lagerfeuer bei Nacht' }).click();
+  await szeneKlicken('Lagerfeuer bei Nacht');
   await seite.waitForSelector('.ebene');
   await seite.waitForFunction(() => !document.querySelector('.titel p') || document.querySelector('.titel p').textContent !== 'lädt …', null, { timeout: 30000 });
   pruefe(await seite.locator('.ebene').count() === 6, `${name}: Lagerfeuer hat sechs Ebenen`);
@@ -130,7 +143,7 @@ for (const [breite, hoehe, name] of [[1400, 900, 'breit'], [390, 844, 'schmal']]
   pruefe(await seite.locator('.fenster h2', { hasText: 'Quellen' }).count() === 1, `${name}: Quellen öffnet`);
   await seite.keyboard.press('Escape');
   // Andere Szene, dann Stille
-  await seite.locator('.szene', { hasText: 'Gewitter' }).click();
+  await szeneKlicken('Gewitter');
   await seite.waitForTimeout(800);
   await seite.getByRole('button', { name: '⏹ Stille' }).click();
   pruefe(await seite.locator('.leer').count() === 1, `${name}: Stille leert die Bühne`);

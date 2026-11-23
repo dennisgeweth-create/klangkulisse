@@ -28,6 +28,11 @@ export class Motor {
     this.ctx = kontext;
     this.puffer = new Map(); // klangId → Promise<AudioBuffer[]>
     this.szene = null;
+    // Alle Szenen, die noch klingen oder gerade laden. Beim schnellen Wechseln
+    // können das mehrere sein; sie alle müssen beim nächsten Wechsel oder bei
+    // „Stille“ weg, nicht nur die zuletzt gewählte.
+    this.lebend = new Set();
+    this.leisteStimmen = new Set(); // Geräusche aus der Leiste, die noch klingen
     this.hoerer = new Set();
     this.einst = { aufstellung: 'auto', folge: 'standard', center: 0.5, lfe: 0.6, pegel: 0.8 };
   }
@@ -70,7 +75,9 @@ export class Motor {
     const neu = a !== this.aufstellung || this.folge !== this.einst.folge;
     if (!neu && this.merger) return;
     const lief = this.szene && this.szene.def;
-    if (this.szene) this.szeneAbbauen(this.szene, 0);
+    for (const sz of [...this.lebend]) this.szeneAbbauen(sz, 0);
+    this.szene = null;
+    this.leisteStimmen.clear();
     if (this.ausgang) this.ausgang.disconnect();
     this.leiste = null; // hing am alten Ausgang
 
@@ -329,9 +336,9 @@ export class Motor {
 
   async szeneSpielen(def, { ueberblenden = 3 } = {}) {
     if (!this.ctx) throw new Error('Erst starten.');
-    const alt = this.szene;
     const sz = { def, bus: this.busBauen(), ebenen: [], weg: false };
     this.szene = sz;
+    this.lebend.add(sz);
     this.melden('szene', { id: def.id, laedt: true });
     // Erst alles laden, dann zusammen einsetzen — sonst kommt der Regen vor dem Wind.
     const geladen = await Promise.all(def.ebenen.map((e) => {
@@ -350,19 +357,31 @@ export class Motor {
       sz.ebenen.push(eb);
       if (eb.puffer && !eb.stumm) this.ebeneAn(sz, eb);
     });
-    if (alt) this.szeneAbbauen(alt, ueberblenden);
-    this.blenden(sz.bus, 1, alt ? ueberblenden : Math.min(1.5, ueberblenden));
+    // Alles, was vorher klang (auch Szenen, die beim schnellen Wechseln nie fertig
+    // geladen wurden), blendet jetzt aus.
+    const alte = [...this.lebend].filter((x) => x !== sz);
+    for (const alt of alte) this.szeneAbbauen(alt, ueberblenden);
+    this.blenden(sz.bus, 1, alte.length ? ueberblenden : Math.min(1.5, ueberblenden));
     this.melden('szene', { id: def.id, laedt: false });
   }
 
+  // Stille: jede noch klingende Szene und die Geräusche aus der Leiste ausblenden.
   szeneStoppen(dauer = 2) {
-    if (!this.szene) return;
-    this.szeneAbbauen(this.szene, dauer);
+    for (const sz of [...this.lebend]) this.szeneAbbauen(sz, dauer);
     this.szene = null;
+    if (this.ctx) {
+      const t = this.ctx.currentTime;
+      for (const st of this.leisteStimmen) {
+        st.zug.gain.setTargetAtTime(0, t, dauer / 4 || 0.001);
+        try { st.quelle.stop(t + dauer + 0.05); } catch (f) { /* schon aus */ }
+      }
+      this.leisteStimmen.clear();
+    }
     this.melden('szene', { id: null });
   }
 
   szeneAbbauen(sz, dauer) {
+    this.lebend.delete(sz);
     sz.weg = true;
     this.blenden(sz.bus, 0, dauer);
     for (const eb of sz.ebenen) clearTimeout(eb.timer);
@@ -512,6 +531,8 @@ export class Motor {
     }
     const b = puffer[Math.floor(Math.random() * puffer.length)];
     const st = this.einzelStimme(b, this.leiste, { ...ort, hall, lfe }, { pegel, tonhoehe: tonhoehe + (Math.random() * 2 - 1) * 0.5, bewegung });
+    this.leisteStimmen.add(st);
+    st.quelle.addEventListener('ended', () => this.leisteStimmen.delete(st));
     this.melden('einzel', { id, ort, dauer: b.duration });
     return st;
   }

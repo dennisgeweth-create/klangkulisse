@@ -71,7 +71,24 @@ button, input, select { font: inherit; color: inherit; }
 .spalten-kopf h2 { font-size: 1.15rem; }
 
 /* Szenenliste */
-.gruppe h3 { margin-top: 14px; }
+.szenen-suche { margin: 8px 0 6px; }
+.gruppe { border-bottom: 1px solid var(--linie); }
+.gruppe-kopf {
+  display: flex; align-items: center; gap: 8px; width: 100%; padding: 10px 6px;
+  background: transparent; border: 0; cursor: pointer; text-align: left; border-radius: 6px;
+}
+.gruppe-kopf:hover:not([disabled]) { background: var(--flaeche); }
+.gruppe-kopf[disabled] { cursor: default; }
+.gruppe-kopf .pfeil { width: 12px; color: var(--text-2); }
+.gruppe-symbol { width: 22px; text-align: center; }
+.gruppe-name { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-2); flex: 1; }
+.gruppe.auf .gruppe-name { color: var(--text); }
+.gruppe-laeuft { color: var(--gold); font-size: 0.7rem; }
+.gruppe-zahl {
+  font-size: 0.72rem; color: var(--text-2); background: var(--flaeche-2);
+  border-radius: 9px; min-width: 22px; padding: 1px 6px; text-align: center;
+}
+.gruppe-inhalt { padding-bottom: 8px; }
 .szene {
   display: flex; gap: 10px; align-items: center; width: 100%; text-align: left;
   background: transparent; border: 1px solid transparent; border-radius: var(--radius);

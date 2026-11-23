@@ -2,6 +2,7 @@
 
 Raumklang für den Spieltisch: Szenen für Taverne, Lagerfeuer, Gewitter, Höhle, Schlacht und mehr, in **7.1**, 5.1 oder Stereo, direkt aus dem Browser. Gedacht für Pen-&-Paper-Runden (D&D und Verwandte), ähnlich wie Syrinscape, aber ohne Konto und ohne Installation.
 
+- **Über 60 Szenen** in aufklappbaren Gruppen (Gasthäuser, Stadt & Burg, Wald & Wildnis, Unterwelt, Grusel, Kampf, Magie …), viele davon als Varianten (Gaststube spät in der Nacht, Lagerfeuer im Regen). Ein Suchfeld findet jede Szene.
 - **Szenen** bestehen aus Ebenen: Schleifen (Regen, Wind, Gaststube), Musik und Zufallsereignisse (ein Kauz hinter euch, Donner von irgendwo, Krähen über dem Friedhof). Beim Szenenwechsel wird weich übergeblendet.
 - **Echter Raum:** Jede Quelle hat einen Ort. Im Raumbild lassen sich Punkte ziehen, und der Klang wandert mit. Ereignisse tauchen in ihrem Sektor auf (vorn, hinten, ringsum), Reiter und Möwen ziehen vorbei.
 - **Subwoofer** (LFE) bekommt nur, was durch 120 Hz passt. Donner, Trommeln, Drachenbrüllen und Erdgrollen schicken ihm ihren Anteil.

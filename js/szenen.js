@@ -18,9 +18,25 @@
 //
 // hall der Szene: { dauer: Sekunden, daempfung: 0..1 }
 
+// Die Gruppen der Szenenliste, in dieser Reihenfolge. Szenen mit einer
+// anderen Gruppe (etwa „Eigene“) kommen dahinter.
+export const GRUPPEN = [
+  { name: 'Gasthäuser', symbol: '🍺' },
+  { name: 'Stadt & Burg', symbol: '🏰' },
+  { name: 'Land & Reise', symbol: '🐎' },
+  { name: 'Wald & Wildnis', symbol: '🌲' },
+  { name: 'Wasser & Küste', symbol: '🌊' },
+  { name: 'Wetter', symbol: '⛈' },
+  { name: 'Unterwelt', symbol: '🦇' },
+  { name: 'Grusel', symbol: '💀' },
+  { name: 'Kampf', symbol: '⚔' },
+  { name: 'Magie', symbol: '✨' },
+  { name: 'Eigene', symbol: '🎧' },
+];
+
 export const SZENEN = [
   {
-    id: 'gaststube', name: 'Gaststube', gruppe: 'Orte', symbol: '🍺',
+    id: 'gaststube', name: 'Gaststube', gruppe: 'Gasthäuser', symbol: '🍺',
     beschreibung: 'Volle Wirtsstube, Feuer im Kamin, Spielleute in der Ecke.',
     hall: { dauer: 1.2, daempfung: 0.7 },
     ebenen: [
@@ -33,7 +49,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'lagerfeuer', name: 'Lagerfeuer bei Nacht', gruppe: 'Wildnis', symbol: '🔥',
+    id: 'lagerfeuer', name: 'Lagerfeuer bei Nacht', gruppe: 'Wald & Wildnis', symbol: '🔥',
     beschreibung: 'Das Feuer vor euch, Grillen ringsum, im Dunkeln ruft ein Kauz.',
     hall: { dauer: 2.5, daempfung: 0.8 },
     ebenen: [
@@ -46,7 +62,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'wald', name: 'Wald am Morgen', gruppe: 'Wildnis', symbol: '🌲',
+    id: 'wald', name: 'Wald am Morgen', gruppe: 'Wald & Wildnis', symbol: '🌲',
     beschreibung: 'Vogelstimmen, ein Bach zur Rechten, irgendwo hämmert ein Specht.',
     hall: { dauer: 1.8, daempfung: 0.8 },
     ebenen: [
@@ -69,7 +85,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'kueste', name: 'Sturm an der Küste', gruppe: 'Wetter', symbol: '🌊',
+    id: 'kueste', name: 'Sturm an der Küste', gruppe: 'Wasser & Küste', symbol: '🌊',
     beschreibung: 'Brecher an den Klippen, Möwen im Wind.',
     hall: { dauer: 2, daempfung: 0.8 },
     ebenen: [
@@ -79,7 +95,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'hafen', name: 'Hafen', gruppe: 'Orte', symbol: '⚓',
+    id: 'hafen', name: 'Hafen', gruppe: 'Wasser & Küste', symbol: '⚓',
     beschreibung: 'Boote schlagen an den Steg, Wellen am Kai, eine Glocke in der Ferne.',
     hall: { dauer: 1.5, daempfung: 0.7 },
     ebenen: [
@@ -115,7 +131,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'gruft', name: 'Gruft', gruppe: 'Unterwelt', symbol: '💀',
+    id: 'gruft', name: 'Gruft', gruppe: 'Grusel', symbol: '💀',
     beschreibung: 'Eine kalte Fläche, ein schlagendes Herz, Krähen über dem Friedhof.',
     hall: { dauer: 3.8, daempfung: 0.45 },
     ebenen: [
@@ -152,7 +168,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'markt', name: 'Marktplatz', gruppe: 'Orte', symbol: '🛒',
+    id: 'markt', name: 'Marktplatz', gruppe: 'Stadt & Burg', symbol: '🛒',
     beschreibung: 'Gedränge, Hufe auf Pflaster, der Schmied hämmert am Rand.',
     hall: { dauer: 1.6, daempfung: 0.7 },
     ebenen: [
@@ -165,7 +181,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'schmiede', name: 'Schmiede', gruppe: 'Orte', symbol: '⚒',
+    id: 'schmiede', name: 'Schmiede', gruppe: 'Stadt & Burg', symbol: '⚒',
     beschreibung: 'Die Esse faucht, der Hammer fällt auf den Amboss.',
     hall: { dauer: 1.4, daempfung: 0.6 },
     ebenen: [
@@ -175,7 +191,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'sumpf', name: 'Sumpf', gruppe: 'Wildnis', symbol: '🐸',
+    id: 'sumpf', name: 'Sumpf', gruppe: 'Wald & Wildnis', symbol: '🐸',
     beschreibung: 'Froschchor, stehendes Wasser, Krähen über dem Schilf.',
     hall: { dauer: 2, daempfung: 0.8 },
     ebenen: [
@@ -208,7 +224,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'wasserfall', name: 'Am Wasserfall', gruppe: 'Wildnis', symbol: '💧',
+    id: 'wasserfall', name: 'Am Wasserfall', gruppe: 'Wasser & Küste', symbol: '💧',
     beschreibung: 'Stromschnellen, ein Wasserfall vor euch, Vögel im Regen.',
     hall: { dauer: 2, daempfung: 0.7 },
     ebenen: [
@@ -229,7 +245,7 @@ export const SZENEN = [
     ],
   },
   {
-    id: 'reise', name: 'Auf der Landstraße', gruppe: 'Wildnis', symbol: '🐎',
+    id: 'reise', name: 'Auf der Landstraße', gruppe: 'Land & Reise', symbol: '🐎',
     beschreibung: 'Schafweiden, ein leichter Wind, Reiter galoppieren vorbei.',
     hall: { dauer: 1.5, daempfung: 0.8 },
     ebenen: [
@@ -237,6 +253,598 @@ export const SZENEN = [
       { klang: ['wald-abend', 'synth:wind'], art: 'bett', pegel: 0.4, ort: 'rundum' },
       { klang: 'galopp', art: 'zufall', pegel: 0.6, intervall: [60, 160], sektor: [-120, 120], abstand: [1.2, 1.6], bewegung: 'vorbei', lfe: 0.5 },
       { klang: 'kraehe', art: 'zufall', pegel: 0.3, intervall: [40, 120], sektor: [-180, 180], abstand: [1.8, 2.6] },
+    ],
+  },
+
+  // ── Gasthäuser: Varianten der Gaststube ──
+  {
+    id: 'gaststube-spaet', name: 'Gaststube, spät in der Nacht', gruppe: 'Gasthäuser', symbol: '🕯',
+    beschreibung: 'Die letzten Gäste murmeln, das Feuer brennt herunter, draußen Regen.',
+    hall: { dauer: 1.1, daempfung: 0.75 },
+    ebenen: [
+      { klang: ['feuer-gras', 'synth:feuer'], art: 'bett', pegel: 0.55, ort: { winkel: -90, abstand: 0.6 }, lfe: 0.2 },
+      { klang: ['gespraech', 'gasthaus'], art: 'bett', pegel: 0.2, ort: { winkel: 60, abstand: 1.3 }, hall: 0.2 },
+      { klang: ['regen-fenster', 'synth:regen'], art: 'bett', pegel: 0.35, ort: { winkel: 150, abstand: 1.4 }, breite: 0.4, tiefpass: 2500 },
+      { klang: 'musik-landini', art: 'musik', pegel: 0.15, ort: { winkel: 120, abstand: 1.6 }, hall: 0.3 },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.3, intervall: [90, 240], sektor: [150, -150], abstand: [1.4, 1.8], hall: 0.3 },
+      { klang: 'hund', art: 'zufall', pegel: 0.15, intervall: [80, 200], sektor: [-180, 180], abstand: [2.5, 3.2], hall: 0.4 },
+    ],
+  },
+  {
+    id: 'taverne-fest', name: 'Taverne beim Fest', gruppe: 'Gasthäuser', symbol: '🎉',
+    beschreibung: 'Voll bis unters Dach, Tanzmusik, Jubel und klirrende Münzen.',
+    hall: { dauer: 1.3, daempfung: 0.65 },
+    ebenen: [
+      { klang: ['gasthaus', 'markt'], art: 'bett', pegel: 0.6, ort: 'rundum' },
+      { klang: 'musik-tanz', art: 'musik', pegel: 0.5, ort: { winkel: -30, abstand: 1.1 }, spreizung: 30, hall: 0.3 },
+      { klang: ['feuer-gras', 'synth:feuer'], art: 'bett', pegel: 0.3, ort: { winkel: 100, abstand: 0.8 }, lfe: 0.2 },
+      { klang: 'jubel', art: 'zufall', pegel: 0.35, intervall: [40, 120], sektor: [-120, 120], abstand: [1, 1.6], hall: 0.2 },
+      { klang: 'applaus', art: 'zufall', pegel: 0.3, intervall: [90, 240], sektor: [-60, 60], abstand: [1, 1.4], hall: 0.2 },
+      { klang: 'muenzen', art: 'zufall', pegel: 0.35, intervall: [15, 45], sektor: [-90, 90], abstand: [0.6, 1.1] },
+    ],
+  },
+  {
+    id: 'hafenkneipe', name: 'Hafenkneipe', gruppe: 'Gasthäuser', symbol: '⚓',
+    beschreibung: 'Raue Seeleute, das Meer schlägt gegen die Mole, Möwen vor der Tür.',
+    hall: { dauer: 1.2, daempfung: 0.7 },
+    ebenen: [
+      { klang: ['gasthaus', 'markt'], art: 'bett', pegel: 0.45, ort: 'rundum' },
+      { klang: ['brandung', 'synth:brandung'], art: 'bett', pegel: 0.35, ort: { winkel: 180, abstand: 1.8 }, breite: 0.6, tiefpass: 1200, lfe: 0.3 },
+      { klang: 'musik-machaut', art: 'musik', pegel: 0.25, ort: { winkel: 40, abstand: 1.3 }, hall: 0.3 },
+      { klang: ['feuer-gras', 'synth:feuer'], art: 'bett', pegel: 0.3, ort: { winkel: -80, abstand: 0.8 } },
+      { klang: 'moewe', art: 'zufall', pegel: 0.25, intervall: [25, 70], sektor: [130, -130], abstand: [2, 2.8], tiefpass: 3000 },
+      { klang: 'glocke', art: 'zufall', pegel: 0.2, intervall: [120, 300], sektor: [150, -150], abstand: [2.6, 3.4], hall: 0.5 },
+    ],
+  },
+  {
+    id: 'gasthaus-sturm', name: 'Gasthaus im Unwetter', gruppe: 'Gasthäuser', symbol: '⛈',
+    beschreibung: 'Drinnen warm und laut, draußen peitscht der Sturm gegen die Läden.',
+    hall: { dauer: 1.2, daempfung: 0.7 },
+    ebenen: [
+      { klang: ['gasthaus', 'markt'], art: 'bett', pegel: 0.4, ort: 'rundum' },
+      { klang: ['feuer-gras', 'synth:feuer'], art: 'bett', pegel: 0.45, ort: { winkel: -100, abstand: 0.7 }, lfe: 0.2 },
+      { klang: ['regen-stark', 'synth:platzregen'], art: 'bett', pegel: 0.4, ort: 'rundum', tiefpass: 1800 },
+      { klang: ['wind-heulen', 'synth:sturmheulen'], art: 'bett', pegel: 0.25, ort: 'rundum', tiefpass: 1500 },
+      { klang: ['donner-nah', 'synth:donner'], art: 'zufall', pegel: 0.6, intervall: [30, 90], sektor: [-180, 180], abstand: [1.8, 2.6], lfe: 0.9, tiefpass: 900, breite: 0.5 },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.3, intervall: [60, 160], sektor: [150, -150], abstand: [1.3, 1.7], hall: 0.3 },
+    ],
+  },
+  {
+    id: 'rasthof', name: 'Rasthof an der Straße', gruppe: 'Gasthäuser', symbol: '🏚',
+    beschreibung: 'Ein einfacher Krug am Weg: Pferde im Hof, Hühner, ein Lautenspieler.',
+    hall: { dauer: 1, daempfung: 0.8 },
+    ebenen: [
+      { klang: ['gespraech', 'gasthaus', 'synth:feuer'], art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: ['feuer-gras', 'synth:feuer'], art: 'bett', pegel: 0.4, ort: { winkel: 70, abstand: 0.7 } },
+      { klang: 'musik-landini', art: 'musik', pegel: 0.3, ort: { winkel: -40, abstand: 1.2 }, hall: 0.2 },
+      { klang: 'hufe-pflaster', art: 'bett', pegel: 0.15, ort: { winkel: 170, abstand: 1.8 }, tiefpass: 2500 },
+      { klang: 'hahn', art: 'zufall', pegel: 0.25, intervall: [50, 140], sektor: [120, -120], abstand: [1.8, 2.5], tiefpass: 3000 },
+    ],
+  },
+
+  // ── Stadt & Burg ──
+  {
+    id: 'markt-morgen', name: 'Markt am Morgen', gruppe: 'Stadt & Burg', symbol: '🌅',
+    beschreibung: 'Die Stände öffnen, der Hahn kräht, die ersten Karren rollen.',
+    hall: { dauer: 1.5, daempfung: 0.75 },
+    ebenen: [
+      { klang: 'markt', art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: 'synth:wind', art: 'bett', pegel: 0.15, ort: 'rundum' },
+      { klang: 'hufe-pflaster', art: 'bett', pegel: 0.3, ort: { winkel: -60, abstand: 1.3 } },
+      { klang: 'hahn', art: 'zufall', pegel: 0.45, intervall: [25, 70], sektor: [-180, 180], abstand: [1.4, 2.2] },
+      { klang: 'hund', art: 'zufall', pegel: 0.3, intervall: [50, 120], sektor: [-180, 180], abstand: [1.5, 2.5] },
+      { klang: 'glocke', art: 'zufall', pegel: 0.3, intervall: [120, 300], sektor: [-40, 40], abstand: [2.6, 3.4], hall: 0.6 },
+    ],
+  },
+  {
+    id: 'stadttor', name: 'Am Stadttor', gruppe: 'Stadt & Burg', symbol: '🏯',
+    beschreibung: 'Wachen mit Hellebarden, Reiter kommen und gehen, ein Horn vom Turm.',
+    hall: { dauer: 2, daempfung: 0.6 },
+    ebenen: [
+      { klang: 'synth:wind', art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: 'markt', art: 'bett', pegel: 0.15, ort: { winkel: 180, abstand: 2 }, breite: 0.6, tiefpass: 2000 },
+      { klang: 'hufe-pflaster', art: 'bett', pegel: 0.35, ort: { winkel: 20, abstand: 1.1 } },
+      { klang: 'galopp', art: 'zufall', pegel: 0.5, intervall: [50, 130], sektor: [-120, 120], abstand: [1.1, 1.5], bewegung: 'vorbei', lfe: 0.5 },
+      { klang: 'metall', art: 'zufall', pegel: 0.25, intervall: [20, 60], sektor: [-60, 60], abstand: [0.8, 1.2], tonStreu: 2 },
+      { klang: 'horn', art: 'zufall', pegel: 0.35, intervall: [120, 300], sektor: [-30, 30], abstand: [2.4, 3.2], hall: 0.6 },
+    ],
+  },
+  {
+    id: 'thronsaal', name: 'Thronsaal beim Bankett', gruppe: 'Stadt & Burg', symbol: '👑',
+    beschreibung: 'Der König tafelt: Spielleute, Trinksprüche, das große Kaminfeuer.',
+    hall: { dauer: 3, daempfung: 0.5 },
+    ebenen: [
+      { klang: ['gasthaus', 'markt'], art: 'bett', pegel: 0.4, ort: 'rundum', hall: 0.3 },
+      { klang: 'musik-cum-altre', art: 'musik', pegel: 0.45, ort: { winkel: 0, abstand: 1.4 }, spreizung: 50, hall: 0.4 },
+      { klang: ['lagerfeuer', 'synth:grossfeuer'], art: 'bett', pegel: 0.3, ort: { winkel: -110, abstand: 1.2 }, lfe: 0.3 },
+      { klang: 'applaus', art: 'zufall', pegel: 0.35, intervall: [80, 200], sektor: [-120, 120], abstand: [1.2, 1.8], hall: 0.4 },
+      { klang: 'jubel', art: 'zufall', pegel: 0.3, intervall: [60, 160], sektor: [-150, 150], abstand: [1.2, 2], hall: 0.4 },
+      { klang: 'gong', art: 'zufall', pegel: 0.3, intervall: [180, 400], sektor: [-20, 20], abstand: [1.8, 2.2], hall: 0.7, lfe: 0.4 },
+    ],
+  },
+  {
+    id: 'burghof', name: 'Burghof', gruppe: 'Stadt & Burg', symbol: '🏰',
+    beschreibung: 'Waffenübungen auf dem Hof, die Schmiede im Winkel, Krähen auf den Zinnen.',
+    hall: { dauer: 2.2, daempfung: 0.55 },
+    ebenen: [
+      { klang: 'synth:wind', art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: 'schmiede', art: 'bett', pegel: 0.2, ort: { winkel: 130, abstand: 1.8 }, hall: 0.4 },
+      { klang: 'hufe-pflaster', art: 'bett', pegel: 0.2, ort: { winkel: -70, abstand: 1.5 } },
+      { klang: 'metall', art: 'zufall', pegel: 0.4, intervall: [2, 8], sektor: [-50, 50], abstand: [1, 1.4], hall: 0.3, tonStreu: 2 },
+      { klang: 'kraehe', art: 'zufall', pegel: 0.3, intervall: [40, 110], sektor: [-180, 180], abstand: [2, 2.8], hall: 0.3 },
+      { klang: 'horn', art: 'zufall', pegel: 0.3, intervall: [150, 360], sektor: [120, -120], abstand: [2.2, 3], hall: 0.6 },
+    ],
+  },
+  {
+    id: 'stadt-nacht', name: 'Gassen bei Nacht', gruppe: 'Stadt & Burg', symbol: '🌙',
+    beschreibung: 'Leere Gassen, ein Hund in der Ferne, die Turmglocke schlägt die Stunde.',
+    hall: { dauer: 2.4, daempfung: 0.55 },
+    ebenen: [
+      { klang: 'synth:wind', art: 'bett', pegel: 0.25, ort: 'rundum' },
+      { klang: 'synth:grillen', art: 'bett', pegel: 0.15, ort: 'rundum' },
+      { klang: 'hund', art: 'zufall', pegel: 0.3, intervall: [40, 120], sektor: [-180, 180], abstand: [2, 3], hall: 0.5 },
+      { klang: 'kauz', art: 'zufall', pegel: 0.3, intervall: [50, 140], sektor: [-180, 180], abstand: [2, 2.8], hall: 0.4 },
+      { klang: 'glocke', art: 'zufall', pegel: 0.3, intervall: [150, 360], sektor: [-40, 40], abstand: [2.8, 3.5], hall: 0.7 },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.25, intervall: [70, 180], sektor: [-180, 180], abstand: [1.5, 2.2], hall: 0.4 },
+    ],
+  },
+  {
+    id: 'schmiede-abend', name: 'Schmiede nach Feierabend', gruppe: 'Stadt & Burg', symbol: '🔥',
+    beschreibung: 'Die Esse glüht nach, Grillen vor der offenen Tür, ab und zu ein letzter Schlag.',
+    hall: { dauer: 1.3, daempfung: 0.65 },
+    ebenen: [
+      { klang: ['esse', 'synth:grossfeuer'], art: 'bett', pegel: 0.35, ort: { winkel: 30, abstand: 0.8 }, lfe: 0.3, tiefpass: 4000 },
+      { klang: 'synth:grillen', art: 'bett', pegel: 0.3, ort: { winkel: 180, abstand: 1.6 }, breite: 0.5 },
+      { klang: 'klopfen', art: 'zufall', pegel: 0.3, intervall: [20, 60], sektor: [-60, 60], abstand: [0.8, 1.2], hall: 0.3, tonhoehe: -4 },
+      { klang: 'schleifen', art: 'zufall', pegel: 0.3, intervall: [50, 120], sektor: [90, 150], abstand: [0.9, 1.3] },
+    ],
+  },
+
+  // ── Land & Reise ──
+  {
+    id: 'bauernhof', name: 'Bauernhof', gruppe: 'Land & Reise', symbol: '🐓',
+    beschreibung: 'Hühner im Hof, Ziegen am Zaun, der Hofhund schlägt an.',
+    hall: { dauer: 1.2, daempfung: 0.85 },
+    ebenen: [
+      { klang: ['wald-morgen', 'synth:wind'], art: 'bett', pegel: 0.4, ort: 'rundum' },
+      { klang: ['schafweide', 'synth:wind'], art: 'bett', pegel: 0.3, ort: { winkel: 120, abstand: 1.6 }, breite: 0.5 },
+      { klang: 'hahn', art: 'zufall', pegel: 0.5, intervall: [15, 45], sektor: [-120, 120], abstand: [1, 1.8] },
+      { klang: 'ziegen', art: 'zufall', pegel: 0.45, intervall: [20, 60], sektor: [60, 160], abstand: [1.2, 1.8] },
+      { klang: 'hund', art: 'zufall', pegel: 0.4, intervall: [40, 120], sektor: [-160, -40], abstand: [1.2, 2] },
+      { klang: 'kraehe', art: 'zufall', pegel: 0.25, intervall: [60, 150], sektor: [-180, 180], abstand: [2, 2.8] },
+    ],
+  },
+  {
+    id: 'muehle', name: 'Mühle am Bach', gruppe: 'Land & Reise', symbol: '🛖',
+    beschreibung: 'Das Wasser treibt das Rad, Holz klappert, Vögel im Erlengebüsch.',
+    hall: { dauer: 1.4, daempfung: 0.7 },
+    ebenen: [
+      { klang: ['bach', 'synth:bach'], art: 'bett', pegel: 0.6, ort: { winkel: 60, abstand: 0.9 }, breite: 0.4 },
+      { klang: ['stromschnellen', 'synth:fluss'], art: 'bett', pegel: 0.25, ort: { winkel: 90, abstand: 1.3 } },
+      { klang: ['wald-morgen', 'synth:wind'], art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'klopfen', art: 'zufall', pegel: 0.35, intervall: [1.5, 5], sektor: [40, 100], abstand: [0.9, 1.2], hall: 0.3, tonStreu: 2 },
+      { klang: 'ziegen', art: 'zufall', pegel: 0.25, intervall: [60, 160], sektor: [-160, -60], abstand: [1.6, 2.4] },
+    ],
+  },
+  {
+    id: 'reise-regen', name: 'Landstraße im Regen', gruppe: 'Land & Reise', symbol: '🌦',
+    beschreibung: 'Grauer Himmel, aufgeweichter Weg, ein Reiter prescht vorbei.',
+    hall: { dauer: 1.6, daempfung: 0.8 },
+    ebenen: [
+      { klang: ['regen-stark', 'synth:regen'], art: 'bett', pegel: 0.55, ort: 'rundum' },
+      { klang: 'synth:wind', art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: 'galopp', art: 'zufall', pegel: 0.5, intervall: [70, 180], sektor: [-120, 120], abstand: [1.2, 1.6], bewegung: 'vorbei', lfe: 0.5 },
+      { klang: ['donner-grollen', 'synth:donner'], art: 'zufall', pegel: 0.45, intervall: [60, 160], sektor: [-180, 180], abstand: [2.2, 3], lfe: 0.8, breite: 0.5 },
+      { klang: 'kraehe', art: 'zufall', pegel: 0.25, intervall: [50, 140], sektor: [-180, 180], abstand: [2, 2.8] },
+    ],
+  },
+  {
+    id: 'bergpass', name: 'Bergpass', gruppe: 'Land & Reise', symbol: '⛰',
+    beschreibung: 'Wind pfeift über den Grat, Geröll, irgendwo im Tal ein Horn.',
+    hall: { dauer: 3.5, daempfung: 0.5 },
+    ebenen: [
+      { klang: ['wind-heulen', 'synth:sturmheulen'], art: 'bett', pegel: 0.55, ort: 'rundum' },
+      { klang: 'synth:wind', art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'kraehe', art: 'zufall', pegel: 0.3, intervall: [40, 120], sektor: [-180, 180], abstand: [2.2, 3], hall: 0.5 },
+      { klang: 'horn', art: 'zufall', pegel: 0.25, intervall: [150, 360], sektor: [100, 170], abstand: [2.8, 3.5], hall: 0.8, tiefpass: 2500 },
+      { klang: 'synth:grollen', art: 'zufall', pegel: 0.35, intervall: [90, 240], sektor: [-180, 180], abstand: [2, 3], lfe: 0.8, breite: 0.6 },
+    ],
+  },
+  {
+    id: 'heide', name: 'Heide im Wind', gruppe: 'Land & Reise', symbol: '🌾',
+    beschreibung: 'Weites Land, Wind im Gras, ein Krähenschwarm zieht vorüber.',
+    hall: { dauer: 1.5, daempfung: 0.85 },
+    ebenen: [
+      { klang: ['wind-heulen', 'synth:wind'], art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: ['schafweide', 'wald-abend', 'synth:grillen'], art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'kraehen', art: 'zufall', pegel: 0.4, intervall: [40, 110], sektor: [-180, 180], abstand: [1.6, 2.4], bewegung: 'vorbei' },
+      { klang: 'galopp', art: 'zufall', pegel: 0.35, intervall: [120, 300], sektor: [-120, 120], abstand: [1.6, 2.2], bewegung: 'vorbei', lfe: 0.4 },
+    ],
+  },
+
+  // ── Wald & Wildnis ──
+  {
+    id: 'wald-abend', name: 'Wald am Abend', gruppe: 'Wald & Wildnis', symbol: '🌇',
+    beschreibung: 'Die Amseln singen die Sonne hinunter, Grillen setzen ein.',
+    hall: { dauer: 1.8, daempfung: 0.8 },
+    ebenen: [
+      { klang: ['wald-abend', 'synth:wind'], art: 'bett', pegel: 0.7, ort: 'rundum' },
+      { klang: 'synth:grillen', art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: ['bach', 'synth:bach'], art: 'bett', pegel: 0.25, ort: { winkel: -70, abstand: 1.4 } },
+      { klang: 'kauz', art: 'zufall', pegel: 0.35, intervall: [60, 160], sektor: [-180, 180], abstand: [1.8, 2.6], hall: 0.3 },
+    ],
+  },
+  {
+    id: 'wald-regen', name: 'Wald im Regen', gruppe: 'Wald & Wildnis', symbol: '🌧',
+    beschreibung: 'Regen tropft durchs Blätterdach, der Bach schwillt an.',
+    hall: { dauer: 1.8, daempfung: 0.8 },
+    ebenen: [
+      { klang: ['wald-regen', 'synth:regen'], art: 'bett', pegel: 0.6, ort: 'rundum' },
+      { klang: ['regen-leicht', 'synth:regen'], art: 'bett', pegel: 0.4, ort: 'rundum' },
+      { klang: ['bach', 'synth:bach'], art: 'bett', pegel: 0.3, ort: { winkel: 90, abstand: 1.2 } },
+      { klang: ['donner-grollen', 'synth:donner'], art: 'zufall', pegel: 0.4, intervall: [80, 200], sektor: [-180, 180], abstand: [2.4, 3.2], lfe: 0.7, breite: 0.5 },
+    ],
+  },
+  {
+    id: 'nachtwald', name: 'Unheimlicher Nachtwald', gruppe: 'Wald & Wildnis', symbol: '🌑',
+    beschreibung: 'Zu still. Ein Käuzchen, ein Wolf – und etwas Großes im Unterholz.',
+    hall: { dauer: 2.6, daempfung: 0.6 },
+    ebenen: [
+      { klang: ['wald-nacht', 'synth:grillen'], art: 'bett', pegel: 0.55, ort: 'rundum' },
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.2, ort: 'rundum', lfe: 0.3 },
+      { klang: 'musik-grusel', art: 'musik', pegel: 0.15, ort: { winkel: 0, abstand: 1.6 }, hall: 0.5 },
+      { klang: 'kauz', art: 'zufall', pegel: 0.4, intervall: [30, 80], sektor: [-180, 180], abstand: [1.6, 2.4], hall: 0.4 },
+      { klang: 'wolf', art: 'zufall', pegel: 0.4, intervall: [60, 160], sektor: [-180, 180], abstand: [2.2, 3], hall: 0.6 },
+      { klang: ['baer', 'monster'], art: 'zufall', pegel: 0.4, intervall: [90, 240], sektor: [100, -100], abstand: [1.4, 2], lfe: 0.6, hall: 0.3, tiefpass: 2500 },
+    ],
+  },
+  {
+    id: 'lagerfeuer-regen', name: 'Lagerfeuer im Regen', gruppe: 'Wald & Wildnis', symbol: '⛺',
+    beschreibung: 'Das Feuer zischt unter der Plane, Regen auf dem Zeltstoff.',
+    hall: { dauer: 1.8, daempfung: 0.8 },
+    ebenen: [
+      { klang: ['lagerfeuer', 'synth:feuer'], art: 'bett', pegel: 0.6, ort: { winkel: 0, abstand: 0.55 }, breite: 0.2, lfe: 0.3 },
+      { klang: ['regen-leicht', 'synth:regen'], art: 'bett', pegel: 0.5, ort: 'rundum' },
+      { klang: ['regen-veranda', 'synth:regen'], art: 'bett', pegel: 0.3, ort: { winkel: 0, abstand: 0.3 }, breite: 0.6 },
+      { klang: ['donner-grollen', 'synth:donner'], art: 'zufall', pegel: 0.4, intervall: [70, 200], sektor: [-180, 180], abstand: [2.4, 3.2], lfe: 0.8, breite: 0.5 },
+    ],
+  },
+  {
+    id: 'lagerfeuer-winter', name: 'Lagerfeuer im Schnee', gruppe: 'Wald & Wildnis', symbol: '🏔',
+    beschreibung: 'Ein kleines Feuer gegen die Kälte, Wind um die Felsen, Wölfe im Tal.',
+    hall: { dauer: 2.5, daempfung: 0.7 },
+    ebenen: [
+      { klang: ['lagerfeuer', 'synth:feuer'], art: 'bett', pegel: 0.65, ort: { winkel: 0, abstand: 0.55 }, breite: 0.2, lfe: 0.3 },
+      { klang: ['wind-schnee', 'synth:wind'], art: 'bett', pegel: 0.45, ort: 'rundum' },
+      { klang: 'wolf', art: 'zufall', pegel: 0.45, intervall: [50, 140], sektor: [-180, 180], abstand: [2.2, 3.2], hall: 0.6 },
+      { klang: 'schnee-schritte', art: 'zufall', pegel: 0.3, intervall: [80, 200], sektor: [120, -120], abstand: [1.2, 1.8] },
+    ],
+  },
+  {
+    id: 'sumpf-nacht', name: 'Sumpf bei Nacht', gruppe: 'Wald & Wildnis', symbol: '🌫',
+    beschreibung: 'Nebel über dem Moor, Frösche, und etwas atmet im Wasser.',
+    hall: { dauer: 2.4, daempfung: 0.6 },
+    ebenen: [
+      { klang: ['froesche', 'synth:grillen'], art: 'bett', pegel: 0.55, ort: 'rundum' },
+      { klang: 'synth:grillen', art: 'bett', pegel: 0.25, ort: 'rundum' },
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.25, ort: 'rundum', lfe: 0.3 },
+      { klang: 'schleiereule', art: 'zufall', pegel: 0.35, intervall: [50, 140], sektor: [-180, 180], abstand: [1.8, 2.6], hall: 0.4 },
+      { klang: 'monster-2', art: 'zufall', pegel: 0.3, intervall: [100, 260], sektor: [-180, 180], abstand: [1.8, 2.6], hall: 0.4, tonhoehe: -4, tiefpass: 2000 },
+    ],
+  },
+
+  // ── Wasser & Küste ──
+  {
+    id: 'strand', name: 'Ruhiger Strand', gruppe: 'Wasser & Küste', symbol: '🏖',
+    beschreibung: 'Sanfte Wellen, eine leichte Brise, Möwen über dem Wasser.',
+    hall: { dauer: 1.2, daempfung: 0.9 },
+    ebenen: [
+      { klang: ['brandung', 'synth:brandung'], art: 'bett', pegel: 0.6, ort: { winkel: 0, abstand: 1.2 }, breite: 0.7, lfe: 0.2 },
+      { klang: 'synth:wind', art: 'bett', pegel: 0.2, ort: 'rundum' },
+      { klang: 'moewe', art: 'zufall', pegel: 0.35, intervall: [15, 45], sektor: [-120, 120], abstand: [1.6, 2.4], bewegung: 'vorbei' },
+    ],
+  },
+  {
+    id: 'schiff', name: 'An Deck auf hoher See', gruppe: 'Wasser & Küste', symbol: '⛵',
+    beschreibung: 'Wellen gegen den Rumpf, knarrende Planken, die Schiffsglocke.',
+    hall: { dauer: 1.2, daempfung: 0.85 },
+    ebenen: [
+      { klang: ['brandung', 'synth:brandung'], art: 'bett', pegel: 0.55, ort: 'rundum', lfe: 0.4 },
+      { klang: 'synth:wind', art: 'bett', pegel: 0.4, ort: 'rundum' },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.3, intervall: [6, 20], sektor: [-180, 180], abstand: [0.6, 1.2], tonhoehe: -5, tonStreu: 2 },
+      { klang: 'moewe', art: 'zufall', pegel: 0.25, intervall: [40, 120], sektor: [-180, 180], abstand: [2, 2.8], bewegung: 'vorbei' },
+      { klang: 'glocke', art: 'zufall', pegel: 0.3, intervall: [90, 240], sektor: [-30, 30], abstand: [1.2, 1.6], hall: 0.3, tonhoehe: 5 },
+    ],
+  },
+  {
+    id: 'seesturm', name: 'Sturm auf hoher See', gruppe: 'Wasser & Küste', symbol: '🌀',
+    beschreibung: 'Brecher über der Reling, der Mast ächzt, Donner über dem Wasser.',
+    hall: { dauer: 1.6, daempfung: 0.75 },
+    ebenen: [
+      { klang: ['brandung', 'synth:brandung'], art: 'bett', pegel: 0.8, ort: 'rundum', lfe: 0.7 },
+      { klang: ['sturm', 'synth:sturmheulen'], art: 'bett', pegel: 0.6, ort: 'rundum' },
+      { klang: ['regen-stark', 'synth:platzregen'], art: 'bett', pegel: 0.45, ort: 'rundum' },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.4, intervall: [4, 12], sektor: [-180, 180], abstand: [0.6, 1.2], tonhoehe: -7, tonStreu: 2 },
+      { klang: ['donner-nah', 'synth:donner-nah'], art: 'zufall', pegel: 0.7, intervall: [25, 70], sektor: [-180, 180], abstand: [1.2, 2.2], lfe: 1, breite: 0.4 },
+      { klang: 'glocke', art: 'zufall', pegel: 0.3, intervall: [15, 40], sektor: [-30, 30], abstand: [1.2, 1.6], tonhoehe: 5 },
+    ],
+  },
+  {
+    id: 'flussufer', name: 'Am Flussufer', gruppe: 'Wasser & Küste', symbol: '🏞',
+    beschreibung: 'Breites Wasser rauscht vorbei, Vögel im Schilf, Frösche am Rand.',
+    hall: { dauer: 1.6, daempfung: 0.8 },
+    ebenen: [
+      { klang: ['stromschnellen', 'synth:fluss'], art: 'bett', pegel: 0.55, ort: { winkel: 0, abstand: 1 }, breite: 0.8 },
+      { klang: ['wald-morgen', 'synth:wind'], art: 'bett', pegel: 0.4, ort: 'rundum' },
+      { klang: 'froesche', art: 'bett', pegel: 0.15, ort: { winkel: -60, abstand: 1.3 } },
+      { klang: 'kraehe', art: 'zufall', pegel: 0.25, intervall: [50, 130], sektor: [-180, 180], abstand: [2, 2.8] },
+    ],
+  },
+  {
+    id: 'see', name: 'Stiller See', gruppe: 'Wasser & Küste', symbol: '🦢',
+    beschreibung: 'Kaum Wellen am Ufer, Abendvögel, in der Ferne ruft ein Kauz.',
+    hall: { dauer: 2.2, daempfung: 0.75 },
+    ebenen: [
+      { klang: ['teich', 'synth:bach'], art: 'bett', pegel: 0.6, ort: 'rundum' },
+      { klang: ['wald-abend', 'synth:grillen'], art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'kauz', art: 'zufall', pegel: 0.3, intervall: [70, 180], sektor: [-180, 180], abstand: [2.2, 3], hall: 0.5 },
+    ],
+  },
+
+  // ── Wetter ──
+  {
+    id: 'gewitter-wald', name: 'Gewitter im Wald', gruppe: 'Wetter', symbol: '🌩',
+    beschreibung: 'Unter Bäumen Schutz gesucht, der Regen trommelt, Blitze ganz nah.',
+    hall: { dauer: 2.6, daempfung: 0.65 },
+    ebenen: [
+      { klang: ['gewitter-wald', 'synth:platzregen'], art: 'bett', pegel: 0.75, ort: 'rundum', lfe: 0.3 },
+      { klang: ['regen-leicht', 'synth:regen'], art: 'bett', pegel: 0.35, ort: { winkel: 0, abstand: 0.4 }, breite: 0.6 },
+      { klang: ['donner-schlag', 'synth:donner-nah'], art: 'zufall', pegel: 0.85, intervall: [30, 90], sektor: [-180, 180], abstand: [0.9, 1.4], lfe: 1, hall: 0.3, breite: 0.3 },
+      { klang: ['donner-grollen', 'synth:donner'], art: 'zufall', pegel: 0.6, intervall: [15, 45], sektor: [-180, 180], abstand: [1.8, 2.8], lfe: 0.9, breite: 0.5 },
+    ],
+  },
+  {
+    id: 'nieselregen', name: 'Nieselregen', gruppe: 'Wetter', symbol: '🌂',
+    beschreibung: 'Feiner Regen, grau und gleichmäßig. Gut für lange Wege.',
+    hall: { dauer: 1.5, daempfung: 0.85 },
+    ebenen: [
+      { klang: ['regen-leicht', 'synth:regen'], art: 'bett', pegel: 0.55, ort: 'rundum' },
+      { klang: ['wald-regen', 'synth:wind'], art: 'bett', pegel: 0.25, ort: 'rundum' },
+    ],
+  },
+  {
+    id: 'sturmnacht', name: 'Sturmnacht', gruppe: 'Wetter', symbol: '🌪',
+    beschreibung: 'Der Sturm reißt an Läden und Dächern, Donner, irgendwo schlägt eine Tür.',
+    hall: { dauer: 2.2, daempfung: 0.6 },
+    ebenen: [
+      { klang: ['sturm', 'synth:sturmheulen'], art: 'bett', pegel: 0.65, ort: 'rundum' },
+      { klang: ['wind-heulen', 'synth:wind'], art: 'bett', pegel: 0.45, ort: 'rundum' },
+      { klang: ['regen-stark', 'synth:platzregen'], art: 'bett', pegel: 0.4, ort: 'rundum' },
+      { klang: ['donner-grollen', 'synth:donner'], art: 'zufall', pegel: 0.7, intervall: [20, 60], sektor: [-180, 180], abstand: [1.6, 2.6], lfe: 0.9, breite: 0.5 },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.35, intervall: [30, 90], sektor: [-180, 180], abstand: [1.2, 2], hall: 0.4 },
+    ],
+  },
+
+  // ── Unterwelt ──
+  {
+    id: 'unterirdischer-fluss', name: 'Unterirdischer Fluss', gruppe: 'Unterwelt', symbol: '🕳',
+    beschreibung: 'Schwarzes Wasser rauscht durch den Fels, Tropfen fallen in die Tiefe.',
+    hall: { dauer: 5, daempfung: 0.35 },
+    ebenen: [
+      { klang: ['stromschnellen', 'synth:fluss'], art: 'bett', pegel: 0.5, ort: { winkel: 60, abstand: 1.4 }, breite: 0.6, hall: 0.6, tiefpass: 2500, lfe: 0.4 },
+      { klang: 'hoehle-tropfen', art: 'bett', pegel: 0.4, ort: 'rundum', hall: 0.4 },
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.2, ort: 'rundum', lfe: 0.3 },
+      { klang: 'synth:tropfen', art: 'zufall', pegel: 0.45, intervall: [1, 6], sektor: [-180, 180], abstand: [0.6, 1.8], hall: 0.9, tonStreu: 2 },
+    ],
+  },
+  {
+    id: 'zwergenmine', name: 'Zwergenmine', gruppe: 'Unterwelt', symbol: '⛏',
+    beschreibung: 'Hacken im Stollen, eine Schmiede tief unten, der Berg grollt.',
+    hall: { dauer: 3.6, daempfung: 0.45 },
+    ebenen: [
+      { klang: ['drohne-tunnel', 'synth:flaeche-dunkel'], art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: 'schmiede', art: 'bett', pegel: 0.2, ort: { winkel: 140, abstand: 2 }, hall: 0.7, tiefpass: 3000 },
+      { klang: ['esse', 'synth:grossfeuer'], art: 'bett', pegel: 0.2, ort: { winkel: 150, abstand: 1.8 }, lfe: 0.4, tiefpass: 2500 },
+      { klang: 'klopfen', art: 'zufall', pegel: 0.4, intervall: [1.5, 6], sektor: [-120, 120], abstand: [1.2, 2.2], hall: 0.7, tonhoehe: -3, tonStreu: 2 },
+      { klang: 'synth:tropfen', art: 'zufall', pegel: 0.35, intervall: [2, 8], sektor: [-180, 180], abstand: [0.8, 1.6], hall: 0.8 },
+      { klang: 'synth:grollen', art: 'zufall', pegel: 0.5, intervall: [60, 160], sektor: [-180, 180], abstand: [1.5, 2.2], lfe: 1, breite: 0.6 },
+    ],
+  },
+  {
+    id: 'goblinhoehle', name: 'Goblinhöhle', gruppe: 'Unterwelt', symbol: '👺',
+    beschreibung: 'Ein Feuer im Dunkeln, kehliges Knurren, Münzen klimpern im Hort.',
+    hall: { dauer: 3.2, daempfung: 0.5 },
+    ebenen: [
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.25, ort: 'rundum', lfe: 0.3 },
+      { klang: ['lagerfeuer', 'synth:feuer'], art: 'bett', pegel: 0.3, ort: { winkel: 20, abstand: 1.5 }, hall: 0.4 },
+      { klang: 'monster-2', art: 'zufall', pegel: 0.45, intervall: [12, 35], sektor: [-120, 120], abstand: [1.2, 2], hall: 0.5, tonhoehe: 3, tonStreu: 2 },
+      { klang: 'monster', art: 'zufall', pegel: 0.35, intervall: [30, 80], sektor: [-180, 180], abstand: [1.6, 2.4], hall: 0.6, tonhoehe: 2 },
+      { klang: 'muenzen', art: 'zufall', pegel: 0.3, intervall: [40, 110], sektor: [-40, 40], abstand: [1.4, 2], hall: 0.4 },
+      { klang: 'synth:tropfen', art: 'zufall', pegel: 0.3, intervall: [2, 9], sektor: [-180, 180], abstand: [0.8, 1.6], hall: 0.8 },
+    ],
+  },
+  {
+    id: 'folterkammer', name: 'Folterkammer', gruppe: 'Unterwelt', symbol: '🗝',
+    beschreibung: 'Ketten, Eisen auf Stein, schweres Atmen im Dunkeln.',
+    hall: { dauer: 2.6, daempfung: 0.5 },
+    ebenen: [
+      { klang: ['drohne-keller', 'synth:flaeche-dunkel'], art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'synth:herz', art: 'bett', pegel: 0.2, ort: { winkel: 0, abstand: 0.2 }, lfe: 0.7 },
+      { klang: 'atmen', art: 'bett', pegel: 0.15, ort: { winkel: 150, abstand: 1.2 }, hall: 0.4 },
+      { klang: 'riegel', art: 'zufall', pegel: 0.4, intervall: [20, 60], sektor: [-180, 180], abstand: [1.2, 2], hall: 0.6 },
+      { klang: 'metall', art: 'zufall', pegel: 0.3, intervall: [15, 50], sektor: [-180, 180], abstand: [1.2, 2], hall: 0.6, tonhoehe: -5 },
+      { klang: 'schrei', art: 'zufall', pegel: 0.25, intervall: [90, 240], sektor: [120, -120], abstand: [2.2, 3], hall: 0.8, tiefpass: 2500 },
+    ],
+  },
+  {
+    id: 'kanalisation', name: 'Kanalisation', gruppe: 'Unterwelt', symbol: '🐀',
+    beschreibung: 'Abwasser im Gewölbe, Tropfen, ein Gitter quietscht in der Ferne.',
+    hall: { dauer: 3, daempfung: 0.45 },
+    ebenen: [
+      { klang: ['drohne-tunnel', 'synth:flaeche-dunkel'], art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: ['bach', 'synth:bach'], art: 'bett', pegel: 0.35, ort: { winkel: -90, abstand: 0.9 }, breite: 0.5, hall: 0.5, tiefpass: 2000 },
+      { klang: 'hoehle-tropfen', art: 'bett', pegel: 0.3, ort: 'rundum', hall: 0.4 },
+      { klang: 'synth:tropfen', art: 'zufall', pegel: 0.35, intervall: [1, 5], sektor: [-180, 180], abstand: [0.6, 1.6], hall: 0.8 },
+      { klang: 'riegel', art: 'zufall', pegel: 0.3, intervall: [60, 160], sektor: [-180, 180], abstand: [2, 2.8], hall: 0.7 },
+    ],
+  },
+
+  // ── Grusel ──
+  {
+    id: 'friedhof', name: 'Friedhof bei Nacht', gruppe: 'Grusel', symbol: '🪦',
+    beschreibung: 'Wind zwischen den Steinen, Krähen, die Totenglocke schlägt.',
+    hall: { dauer: 2.8, daempfung: 0.55 },
+    ebenen: [
+      { klang: 'synth:wind', art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.2, ort: 'rundum', lfe: 0.3 },
+      { klang: 'musik-grusel', art: 'musik', pegel: 0.15, ort: { winkel: 0, abstand: 1.8 }, hall: 0.5 },
+      { klang: 'kraehe', art: 'zufall', pegel: 0.4, intervall: [25, 70], sektor: [-180, 180], abstand: [1.6, 2.6], hall: 0.4 },
+      { klang: 'kauz', art: 'zufall', pegel: 0.3, intervall: [50, 140], sektor: [-180, 180], abstand: [2, 2.8], hall: 0.4 },
+      { klang: 'glocke', art: 'zufall', pegel: 0.35, intervall: [90, 240], sektor: [150, -150], abstand: [2.4, 3.2], hall: 0.7, tonhoehe: -3 },
+    ],
+  },
+  {
+    id: 'spukhaus', name: 'Spukhaus', gruppe: 'Grusel', symbol: '🏚',
+    beschreibung: 'Türen knarren von selbst, Schritte auf der Treppe, ein Herz schlägt.',
+    hall: { dauer: 2.2, daempfung: 0.55 },
+    ebenen: [
+      { klang: ['drohne-keller', 'synth:flaeche-dunkel'], art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: 'synth:herz', art: 'bett', pegel: 0.18, ort: { winkel: 0, abstand: 0.2 }, lfe: 0.8 },
+      { klang: 'synth:wind', art: 'bett', pegel: 0.15, ort: 'rundum', tiefpass: 1500 },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.4, intervall: [20, 60], sektor: [-180, 180], abstand: [1.2, 2], hall: 0.5 },
+      { klang: 'wendeltreppe', art: 'zufall', pegel: 0.35, intervall: [50, 130], sektor: [120, -120], abstand: [1.4, 2.2], hall: 0.6 },
+      { klang: 'seufzer', art: 'zufall', pegel: 0.3, intervall: [60, 160], sektor: [-180, 180], abstand: [1, 1.8], hall: 0.6 },
+      { klang: 'schrei', art: 'zufall', pegel: 0.25, intervall: [180, 420], sektor: [-180, 180], abstand: [2.2, 3], hall: 0.8 },
+    ],
+  },
+  {
+    id: 'kapelle', name: 'Verfluchte Kapelle', gruppe: 'Grusel', symbol: '⛪',
+    beschreibung: 'Eine Glocke, die niemand läutet, kalte Luft, ein Gong aus dem Nichts.',
+    hall: { dauer: 5, daempfung: 0.35 },
+    ebenen: [
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.35, ort: 'rundum', lfe: 0.4 },
+      { klang: ['drohne-tunnel', 'synth:wind'], art: 'bett', pegel: 0.2, ort: 'rundum' },
+      { klang: 'glocken', art: 'musik', pegel: 0.2, ort: { winkel: 0, abstand: 2.4 }, hall: 0.8, tonhoehe: -4 },
+      { klang: 'gong', art: 'zufall', pegel: 0.3, intervall: [70, 180], sektor: [-180, 180], abstand: [1.6, 2.4], hall: 0.9, tonhoehe: -7, lfe: 0.5 },
+      { klang: 'kraehen', art: 'zufall', pegel: 0.3, intervall: [60, 160], sektor: [-180, 180], abstand: [2.2, 3], hall: 0.5 },
+    ],
+  },
+
+  // ── Kampf ──
+  {
+    id: 'hinterhalt', name: 'Hinterhalt im Wald', gruppe: 'Kampf', symbol: '🏹',
+    beschreibung: 'Pfeile aus dem Unterholz, Klingen, das eigene Herz rast.',
+    hall: { dauer: 1.6, daempfung: 0.75 },
+    ebenen: [
+      { klang: ['wald-morgen', 'synth:wind'], art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'synth:herz-schnell', art: 'bett', pegel: 0.25, ort: { winkel: 0, abstand: 0.1 }, lfe: 0.8 },
+      { klang: 'bogen', art: 'zufall', pegel: 0.55, intervall: [1.5, 6], sektor: [-180, 180], abstand: [1, 1.8], hall: 0.2 },
+      { klang: 'metall', art: 'zufall', pegel: 0.55, intervall: [0.8, 4], sektor: [-90, 90], abstand: [0.7, 1.3], tonStreu: 2 },
+      { klang: 'schrei', art: 'zufall', pegel: 0.35, intervall: [15, 45], sektor: [-180, 180], abstand: [1.4, 2.2], hall: 0.3 },
+    ],
+  },
+  {
+    id: 'belagerung', name: 'Belagerung', gruppe: 'Kampf', symbol: '🔥',
+    beschreibung: 'Trommeln vor den Mauern, Einschläge, Brände, Hörner rufen zum Sturm.',
+    hall: { dauer: 2.4, daempfung: 0.6 },
+    ebenen: [
+      { klang: 'synth:trommeln', art: 'bett', pegel: 0.55, ort: { winkel: 0, abstand: 1.8 }, breite: 0.5, lfe: 0.7, hall: 0.4 },
+      { klang: 'synth:grossfeuer', art: 'bett', pegel: 0.35, ort: { winkel: 120, abstand: 1.4 }, breite: 0.5, lfe: 0.4 },
+      { klang: ['explosion', 'synth:donner-nah'], art: 'zufall', pegel: 0.6, intervall: [12, 40], sektor: [-180, 180], abstand: [1.4, 2.4], lfe: 1, hall: 0.4 },
+      { klang: 'horn', art: 'zufall', pegel: 0.4, intervall: [50, 130], sektor: [-60, 60], abstand: [2.4, 3.2], hall: 0.6 },
+      { klang: 'metall', art: 'zufall', pegel: 0.35, intervall: [1, 5], sektor: [-180, 180], abstand: [1.6, 2.6], hall: 0.4, tonStreu: 2 },
+      { klang: 'schrei', art: 'zufall', pegel: 0.3, intervall: [10, 35], sektor: [-180, 180], abstand: [1.8, 2.8], hall: 0.5 },
+    ],
+  },
+  {
+    id: 'arena', name: 'Arena', gruppe: 'Kampf', symbol: '🏟',
+    beschreibung: 'Die Menge tobt auf den Rängen, Stahl klirrt im Sand.',
+    hall: { dauer: 2.6, daempfung: 0.55 },
+    ebenen: [
+      { klang: ['markt', 'gasthaus', 'synth:wind'], art: 'bett', pegel: 0.5, ort: 'rundum', hall: 0.4 },
+      { klang: 'synth:trommeln', art: 'bett', pegel: 0.3, ort: { winkel: 180, abstand: 2 }, lfe: 0.5, hall: 0.5 },
+      { klang: 'jubel', art: 'zufall', pegel: 0.55, intervall: [10, 30], sektor: [-180, 180], abstand: [1.6, 2.4], hall: 0.5 },
+      { klang: 'applaus', art: 'zufall', pegel: 0.4, intervall: [40, 100], sektor: [-180, 180], abstand: [1.8, 2.6], hall: 0.5 },
+      { klang: 'metall', art: 'zufall', pegel: 0.6, intervall: [0.8, 4], sektor: [-40, 40], abstand: [0.8, 1.2], tonStreu: 2 },
+      { klang: 'horn', art: 'zufall', pegel: 0.35, intervall: [90, 240], sektor: [-30, 30], abstand: [2.2, 3], hall: 0.6 },
+    ],
+  },
+  {
+    id: 'drachenangriff', name: 'Drache greift an', gruppe: 'Kampf', symbol: '🐲',
+    beschreibung: 'Flügelschlag und Feuer von oben, Häuser brennen, Menschen schreien.',
+    hall: { dauer: 2.4, daempfung: 0.55 },
+    ebenen: [
+      { klang: 'synth:grossfeuer', art: 'bett', pegel: 0.5, ort: 'rundum', lfe: 0.5 },
+      { klang: ['sturm', 'synth:sturmheulen'], art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: 'synth:herz-schnell', art: 'bett', pegel: 0.2, ort: { winkel: 0, abstand: 0.1 }, lfe: 0.8 },
+      { klang: ['bruellen', 'monster'], art: 'zufall', pegel: 0.95, intervall: [15, 45], sektor: [-180, 180], abstand: [1, 1.8], lfe: 1, hall: 0.5, tonhoehe: -7, tonStreu: 1.5, bewegung: 'vorbei' },
+      { klang: ['explosion-2', 'explosion', 'synth:donner-nah'], art: 'zufall', pegel: 0.6, intervall: [10, 30], sektor: [-180, 180], abstand: [1.4, 2.4], lfe: 1, hall: 0.4 },
+      { klang: 'schrei', art: 'zufall', pegel: 0.35, intervall: [8, 25], sektor: [-180, 180], abstand: [1.8, 2.8], hall: 0.5 },
+    ],
+  },
+  {
+    id: 'drache-schlaeft', name: 'Schlafender Drache', gruppe: 'Kampf', symbol: '💤',
+    beschreibung: 'Glut im Hort, ein riesiger Atem hebt und senkt sich. Nur nicht wecken.',
+    hall: { dauer: 4.5, daempfung: 0.4 },
+    ebenen: [
+      { klang: 'synth:grossfeuer', art: 'bett', pegel: 0.25, ort: { winkel: 0, abstand: 1.6 }, breite: 0.5, lfe: 0.4, tiefpass: 2000 },
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.25, ort: 'rundum', lfe: 0.5 },
+      { klang: 'atmen', art: 'bett', pegel: 0.4, ort: { winkel: 0, abstand: 1.3 }, breite: 0.5, lfe: 0.8, hall: 0.5, tonhoehe: -10 },
+      { klang: 'synth:herz', art: 'bett', pegel: 0.15, ort: { winkel: 0, abstand: 0.1 }, lfe: 0.6 },
+      { klang: 'muenzen', art: 'zufall', pegel: 0.25, intervall: [40, 120], sektor: [-60, 60], abstand: [1.2, 1.8], hall: 0.6 },
+      { klang: 'synth:grollen', art: 'zufall', pegel: 0.4, intervall: [60, 180], sektor: [-30, 30], abstand: [1.4, 1.8], lfe: 1, breite: 0.6 },
+    ],
+  },
+
+  // ── Magie ──
+  {
+    id: 'feenhain', name: 'Feenhain', gruppe: 'Magie', symbol: '🧚',
+    beschreibung: 'Ein Bach im Mondlicht, schimmernde Flächen, überall funkelt etwas.',
+    hall: { dauer: 4, daempfung: 0.4 },
+    ebenen: [
+      { klang: 'synth:flaeche-weit', art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: ['wald-abend', 'synth:grillen'], art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: ['bach', 'synth:bach'], art: 'bett', pegel: 0.3, ort: { winkel: 70, abstand: 1.2 } },
+      { klang: 'windspiel', art: 'bett', pegel: 0.25, ort: { winkel: -120, abstand: 1.4 }, hall: 0.6 },
+      { klang: 'synth:zauber', art: 'zufall', pegel: 0.4, intervall: [4, 14], sektor: [-180, 180], abstand: [0.6, 1.6], hall: 0.8, tonhoehe: 5, tonStreu: 4 },
+    ],
+  },
+  {
+    id: 'ritual', name: 'Dunkles Ritual', gruppe: 'Magie', symbol: '🕯',
+    beschreibung: 'Dumpfe Trommeln im Kreis, Fackeln, der Gong ruft etwas herbei.',
+    hall: { dauer: 3.5, daempfung: 0.45 },
+    ebenen: [
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.4, ort: 'rundum', lfe: 0.5 },
+      { klang: 'synth:trommeln', art: 'bett', pegel: 0.35, ort: 'rundum', lfe: 0.6, tonhoehe: -3, hall: 0.4 },
+      { klang: ['lagerfeuer', 'synth:feuer'], art: 'bett', pegel: 0.3, ort: { winkel: 0, abstand: 0.7 }, lfe: 0.3 },
+      { klang: 'synth:herz', art: 'bett', pegel: 0.15, ort: { winkel: 0, abstand: 0.1 }, lfe: 0.7 },
+      { klang: 'gong', art: 'zufall', pegel: 0.4, intervall: [40, 110], sektor: [-20, 20], abstand: [1.2, 1.6], hall: 0.9, tonhoehe: -5, lfe: 0.6 },
+      { klang: ['zauber', 'synth:zauber'], art: 'zufall', pegel: 0.4, intervall: [20, 60], sektor: [-180, 180], abstand: [0.8, 1.6], hall: 0.7, tonhoehe: -4 },
+    ],
+  },
+  {
+    id: 'magierturm', name: 'Turm des Magiers', gruppe: 'Magie', symbol: '🔮',
+    beschreibung: 'Wind um die Turmspitze, Bücher, Treppen, und Magie, die nicht ruht.',
+    hall: { dauer: 3, daempfung: 0.45 },
+    ebenen: [
+      { klang: 'synth:flaeche-weit', art: 'bett', pegel: 0.3, ort: 'rundum' },
+      { klang: ['wind-heulen', 'synth:wind'], art: 'bett', pegel: 0.25, ort: 'rundum', tiefpass: 2500 },
+      { klang: ['feuer-gras', 'synth:feuer'], art: 'bett', pegel: 0.25, ort: { winkel: -80, abstand: 0.8 } },
+      { klang: ['zauber', 'synth:zauber'], art: 'zufall', pegel: 0.4, intervall: [15, 45], sektor: [-180, 180], abstand: [0.8, 1.6], hall: 0.6 },
+      { klang: 'wendeltreppe', art: 'zufall', pegel: 0.3, intervall: [70, 180], sektor: [120, -120], abstand: [1.4, 2.2], hall: 0.6 },
+      { klang: 'tuer-knarren', art: 'zufall', pegel: 0.25, intervall: [90, 220], sektor: [-180, 180], abstand: [1.4, 2], hall: 0.5 },
+    ],
+  },
+  {
+    id: 'portal', name: 'Offenes Portal', gruppe: 'Magie', symbol: '🌀',
+    beschreibung: 'Ein Riss in der Welt: Sog, Donnern aus der Tiefe, fremde Funken.',
+    hall: { dauer: 5, daempfung: 0.3 },
+    ebenen: [
+      { klang: 'synth:flaeche-weit', art: 'bett', pegel: 0.35, ort: 'rundum' },
+      { klang: 'synth:flaeche-dunkel', art: 'bett', pegel: 0.35, ort: { winkel: 0, abstand: 1.2 }, breite: 0.6, lfe: 0.6 },
+      { klang: ['sturm', 'synth:sturmheulen'], art: 'bett', pegel: 0.25, ort: 'rundum', tonhoehe: -5 },
+      { klang: 'synth:zauber', art: 'zufall', pegel: 0.45, intervall: [2, 8], sektor: [-60, 60], abstand: [0.8, 1.4], hall: 0.8, tonStreu: 6 },
+      { klang: 'synth:grollen', art: 'zufall', pegel: 0.55, intervall: [20, 60], sektor: [-40, 40], abstand: [1.2, 1.6], lfe: 1, breite: 0.5 },
     ],
   },
 ];
