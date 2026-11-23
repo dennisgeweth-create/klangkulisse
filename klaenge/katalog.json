@@ -13,12 +13,14 @@
     57.26
    ],
    "kanaele": 1,
+   "schnitt": "Sound of light rainfall.ogg|bett|60|",
    "quelle": {
     "titel": "Sound of light rainfall.ogg",
     "seite": "https://commons.wikimedia.org/wiki/File:Sound_of_light_rainfall.ogg",
     "urheber": "Mijesty",
     "lizenz": "CC BY-SA 4.0",
-    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -30,17 +32,17 @@
     "regen-stark.ogg"
    ],
    "dauer": [
-    24.0
+    90.0
    ],
-   "kanaele": 2,
-   "schnitt": "oga|rain-loopable|Rain%20OGG.zip|\"*1.ogg\"|bett|90|",
+   "kanaele": 1,
+   "schnitt": "Heavy rain in Glenshaw, PA.ogg|bett|90|",
    "quelle": {
-    "titel": "Rain (loopable)",
-    "seite": "https://opengameart.org/content/rain-loopable",
-    "urheber": "Ylmir",
-    "lizenz": "CC0 1.0",
-    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-    "herkunft": "OpenGameArt"
+    "titel": "Heavy rain in Glenshaw, PA.ogg",
+    "seite": "https://commons.wikimedia.org/wiki/File:Heavy_rain_in_Glenshaw,_PA.ogg",
+    "urheber": "Sage Ross",
+    "lizenz": "CC BY-SA 3.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "herkunft": "Wikimedia Commons"
    }
   },
   {
@@ -1662,6 +1664,1472 @@
     "urheber": "JaggedStone",
     "lizenz": "CC0 1.0",
     "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schaf",
+   "name": "Schaf",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "schaf.ogg"
+   ],
+   "dauer": [
+    0.78
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|sheep-baa|sheep_baa.flac|\"*\"|einzel|4|",
+   "quelle": {
+    "titel": "Sheep Baa",
+    "seite": "https://opengameart.org/content/sheep-baa",
+    "urheber": "AntumDeluge",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "greifvogel",
+   "name": "Greifvogel",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "greifvogel.ogg"
+   ],
+   "dauer": [
+    1.04
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|osprey-sound|osprey.flac|\"*\"|einzel|5|",
+   "quelle": {
+    "titel": "Osprey Sound",
+    "seite": "https://opengameart.org/content/osprey-sound",
+    "urheber": "AntumDeluge",
+    "lizenz": "CC BY-SA 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "fledermaus",
+   "name": "Fledermäuse kreischen",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "fledermaus-1.ogg",
+    "fledermaus-2.ogg",
+    "fledermaus-3.ogg",
+    "fledermaus-4.ogg"
+   ],
+   "dauer": [
+    1.43,
+    1.72,
+    1.36,
+    1.43
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|bat-screeches|bat.zip|\"*\"|einzel|4|4",
+   "quelle": {
+    "titel": "Bat Screeches",
+    "seite": "https://opengameart.org/content/bat-screeches",
+    "urheber": "AntumDeluge",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "fliegen",
+   "name": "Fliegen",
+   "gruppe": "Tiere",
+   "art": "einzel",
+   "dateien": [
+    "fliegen-1.ogg",
+    "fliegen-2.ogg"
+   ],
+   "dauer": [
+    5.43,
+    6.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|swamp-environment-audio|swamp_sounds.zip|\"*fly_*\"|einzel|6|3",
+   "quelle": {
+    "titel": "Swamp Environment Audio",
+    "seite": "https://opengameart.org/content/swamp-environment-audio",
+    "urheber": "LokiF",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schnarchen",
+   "name": "Schnarchen",
+   "gruppe": "Menschen",
+   "art": "einzel",
+   "dateien": [
+    "schnarchen.ogg"
+   ],
+   "dauer": [
+    0.43
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|80-cc0-creature-sfx|80-CC0-creature-SFX_0.zip|\"*snore.ogg\"|einzel|8|",
+   "quelle": {
+    "titel": "80 CC0 creature SFX",
+    "seite": "https://opengameart.org/content/80-cc0-creature-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "husten",
+   "name": "Husten",
+   "gruppe": "Menschen",
+   "art": "einzel",
+   "dateien": [
+    "husten-1.ogg",
+    "husten-2.ogg",
+    "husten-3.ogg"
+   ],
+   "dauer": [
+    0.42,
+    0.35,
+    0.83
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|80-cc0-creature-sfx|80-CC0-creature-SFX_0.zip|\"*cough_0*.ogg\"|einzel|4|",
+   "quelle": {
+    "titel": "80 CC0 creature SFX",
+    "seite": "https://opengameart.org/content/80-cc0-creature-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schmatzen",
+   "name": "Schmatzen",
+   "gruppe": "Menschen",
+   "art": "einzel",
+   "dateien": [
+    "schmatzen-1.ogg",
+    "schmatzen-2.ogg",
+    "schmatzen-3.ogg",
+    "schmatzen-4.ogg"
+   ],
+   "dauer": [
+    0.58,
+    0.39,
+    0.27,
+    0.45
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|80-cc0-creature-sfx|80-CC0-creature-SFX_0.zip|\"*eat_0*.ogg\"|einzel|4|",
+   "quelle": {
+    "titel": "80 CC0 creature SFX",
+    "seite": "https://opengameart.org/content/80-cc0-creature-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "menge",
+   "name": "Menschenmenge",
+   "gruppe": "Orte",
+   "art": "bett",
+   "dateien": [
+    "menge.ogg"
+   ],
+   "dauer": [
+    31.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|free-crowd-cheering-sounds|gregor_quendel_-_free_crowd_cheering_sounds_-_mp3.zip|\"*10 - Ambience.mp3\"|bett|90|",
+   "quelle": {
+    "titel": "Free Crowd Cheering Sounds",
+    "seite": "https://opengameart.org/content/free-crowd-cheering-sounds",
+    "urheber": "Gregor Quendel",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "fackel",
+   "name": "Fackel",
+   "gruppe": "Feuer",
+   "art": "bett",
+   "dateien": [
+    "fackel.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Torch Flame*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "glut",
+   "name": "Glut",
+   "gruppe": "Feuer",
+   "art": "bett",
+   "dateien": [
+    "glut.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Dying Embers*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "zauberwald",
+   "name": "Verzauberter Wald",
+   "gruppe": "Natur",
+   "art": "bett",
+   "dateien": [
+    "zauberwald.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Enchanted Forest*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "spukwald",
+   "name": "Unheimlicher Wald",
+   "gruppe": "Natur",
+   "art": "bett",
+   "dateien": [
+    "spukwald.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Spooky Forest*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "kiefernwald",
+   "name": "Kiefernwald",
+   "gruppe": "Natur",
+   "art": "bett",
+   "dateien": [
+    "kiefernwald.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Pine Forest*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "herbstwald",
+   "name": "Herbstwald",
+   "gruppe": "Natur",
+   "art": "bett",
+   "dateien": [
+    "herbstwald.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Autumn Forest*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "lichtung",
+   "name": "Waldlichtung",
+   "gruppe": "Natur",
+   "art": "bett",
+   "dateien": [
+    "lichtung.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Forest Clearing*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "regenwald",
+   "name": "Regenwald",
+   "gruppe": "Natur",
+   "art": "bett",
+   "dateien": [
+    "regenwald.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Rainforest Canopy*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "dschungel",
+   "name": "Dschungel",
+   "gruppe": "Natur",
+   "art": "bett",
+   "dateien": [
+    "dschungel.ogg"
+   ],
+   "dauer": [
+    17.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*amb_jungle*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "hoehlenfluss",
+   "name": "Unterirdischer Fluss",
+   "gruppe": "Unterwelt",
+   "art": "bett",
+   "dateien": [
+    "hoehlenfluss.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Underground River*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "meereshoehle",
+   "name": "Meereshöhle",
+   "gruppe": "Unterwelt",
+   "art": "bett",
+   "dateien": [
+    "meereshoehle.ogg"
+   ],
+   "dauer": [
+    17.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*amb_cave.wav\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "nebel",
+   "name": "Nebel",
+   "gruppe": "Wetter",
+   "art": "bett",
+   "dateien": [
+    "nebel.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Weather_Fog*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "morgennebel",
+   "name": "Morgennebel",
+   "gruppe": "Wetter",
+   "art": "bett",
+   "dateien": [
+    "morgennebel.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Morning Mist*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "wuestenwind",
+   "name": "Wüstenwind",
+   "gruppe": "Wetter",
+   "art": "bett",
+   "dateien": [
+    "wuestenwind.ogg"
+   ],
+   "dauer": [
+    75.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-nature-ambient-pack-vol-1|nature_ambient_pack_vol_1_-_mp3.7z|\"*Desert Wind*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Nature Ambient Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-nature-ambient-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "seesturm",
+   "name": "Seesturm",
+   "gruppe": "Wetter",
+   "art": "bett",
+   "dateien": [
+    "seesturm.ogg"
+   ],
+   "dauer": [
+    17.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*amb_sea_storm.wav\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schiffsdeck",
+   "name": "Knarrendes Schiffsdeck",
+   "gruppe": "Wasser",
+   "art": "bett",
+   "dateien": [
+    "schiffsdeck.ogg"
+   ],
+   "dauer": [
+    14.2
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*amb_deck_creaks*\"|bett|75|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "kessel",
+   "name": "Brodelnder Kessel",
+   "gruppe": "Dinge",
+   "art": "bett",
+   "dateien": [
+    "kessel.ogg"
+   ],
+   "dauer": [
+    3.37
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|30-cc0-sfx-loops|sfx_loops.zip|\"*water_boiling.ogg\"|bett|30|",
+   "quelle": {
+    "titel": "30 CC0 SFX loops",
+    "seite": "https://opengameart.org/content/30-cc0-sfx-loops",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "nekromant",
+   "name": "Nekromanten-Gesang",
+   "gruppe": "Magie",
+   "art": "bett",
+   "dateien": [
+    "nekromant.ogg"
+   ],
+   "dauer": [
+    4.5
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Dark Necromancy Chant*\"|bett|60|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "kanone",
+   "name": "Kanonenschuss",
+   "gruppe": "Kampf",
+   "art": "einzel",
+   "dateien": [
+    "kanone-1.ogg",
+    "kanone-2.ogg",
+    "kanone-3.ogg"
+   ],
+   "dauer": [
+    2.18,
+    2.14,
+    2.16
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_cannon_fire_0*\"|einzel|6|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schwert-ziehen",
+   "name": "Schwert ziehen",
+   "gruppe": "Kampf",
+   "art": "einzel",
+   "dateien": [
+    "schwert-ziehen-1.ogg",
+    "schwert-ziehen-2.ogg",
+    "schwert-ziehen-3.ogg",
+    "schwert-ziehen-4.ogg",
+    "schwert-ziehen-5.ogg"
+   ],
+   "dauer": [
+    0.54,
+    0.37,
+    0.51,
+    0.48,
+    0.42
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|rpg-sound-pack|rpg_sound_pack.zip|\"rpg sound pack/battle/sword-unsheathe*.wav\"|einzel|3|",
+   "quelle": {
+    "titel": "RPG Sound Pack",
+    "seite": "https://opengameart.org/content/rpg-sound-pack",
+    "urheber": "artisticdude",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "kettenhemd",
+   "name": "Kettenhemd",
+   "gruppe": "Kampf",
+   "art": "einzel",
+   "dateien": [
+    "kettenhemd-1.ogg",
+    "kettenhemd-2.ogg"
+   ],
+   "dauer": [
+    0.58,
+    0.7
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|rpg-sound-pack|rpg_sound_pack.zip|\"*chainmail*.wav\"|einzel|3|",
+   "quelle": {
+    "titel": "RPG Sound Pack",
+    "seite": "https://opengameart.org/content/rpg-sound-pack",
+    "urheber": "artisticdude",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "bogen-spannen",
+   "name": "Bogen spannen",
+   "gruppe": "Kampf",
+   "art": "einzel",
+   "dateien": [
+    "bogen-spannen-1.ogg",
+    "bogen-spannen-2.ogg"
+   ],
+   "dauer": [
+    0.93,
+    1.0
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Bow_Arrow_Draw_0*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "pfeil-trifft",
+   "name": "Pfeil trifft",
+   "gruppe": "Kampf",
+   "art": "einzel",
+   "dateien": [
+    "pfeil-trifft-1.ogg",
+    "pfeil-trifft-2.ogg"
+   ],
+   "dauer": [
+    0.17,
+    0.37
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Bow_Arrow_Hit_0*\"|einzel|2|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "feuerball",
+   "name": "Feuerball",
+   "gruppe": "Magie",
+   "art": "einzel",
+   "dateien": [
+    "feuerball-1.ogg",
+    "feuerball-2.ogg",
+    "feuerball-3.ogg"
+   ],
+   "dauer": [
+    1.52,
+    1.52,
+    1.52
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Fireball Launch_0*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "feuerball-einschlag",
+   "name": "Feuerball schlägt ein",
+   "gruppe": "Magie",
+   "art": "einzel",
+   "dateien": [
+    "feuerball-einschlag-1.ogg",
+    "feuerball-einschlag-2.ogg",
+    "feuerball-einschlag-3.ogg"
+   ],
+   "dauer": [
+    1.18,
+    1.18,
+    1.18
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Fireball Impact_0*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "eissplitter",
+   "name": "Eissplitter",
+   "gruppe": "Magie",
+   "art": "einzel",
+   "dateien": [
+    "eissplitter-1.ogg",
+    "eissplitter-2.ogg",
+    "eissplitter-3.ogg"
+   ],
+   "dauer": [
+    1.54,
+    1.6,
+    1.58
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Ice Shard Projectile_Laun*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "blitzzauber",
+   "name": "Blitzzauber",
+   "gruppe": "Magie",
+   "art": "einzel",
+   "dateien": [
+    "blitzzauber-1.ogg",
+    "blitzzauber-2.ogg",
+    "blitzzauber-3.ogg"
+   ],
+   "dauer": [
+    1.02,
+    1.04,
+    1.04
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Electric Spell_Lau*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "heilung",
+   "name": "Heilzauber",
+   "gruppe": "Magie",
+   "art": "einzel",
+   "dateien": [
+    "heilung-1.ogg",
+    "heilung-2.ogg"
+   ],
+   "dauer": [
+    3.57,
+    3.53
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Healing Chime_0*\"|einzel|6|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schild",
+   "name": "Magischer Schild",
+   "gruppe": "Magie",
+   "art": "einzel",
+   "dateien": [
+    "schild-1.ogg",
+    "schild-2.ogg"
+   ],
+   "dauer": [
+    2.21,
+    2.23
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Magic Shield_Activat*\"|einzel|6|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "teleport",
+   "name": "Teleport",
+   "gruppe": "Magie",
+   "art": "einzel",
+   "dateien": [
+    "teleport-1.ogg",
+    "teleport-2.ogg"
+   ],
+   "dauer": [
+    1.34,
+    1.3
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-fantasy-sfx-pack-vol-1|fantasy_sfx_pack_vol_1.7z|\"*Teleport_*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Fantasy SFX Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-fantasy-sfx-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "geist",
+   "name": "Geisterstöhnen",
+   "gruppe": "Ungeheuer",
+   "art": "einzel",
+   "dateien": [
+    "geist-1.ogg",
+    "geist-2.ogg",
+    "geist-3.ogg",
+    "geist-4.ogg",
+    "geist-5.ogg"
+   ],
+   "dauer": [
+    2.83,
+    4.83,
+    5.17,
+    4.31,
+    1.63
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|ghost-monster-voice-moaning-growling|qubodup-GhostMoans.zip|\"*/mp3/*.mp3\"|einzel|8|",
+   "quelle": {
+    "titel": "Ghost Monster Voice Moaning & Growling",
+    "seite": "https://opengameart.org/content/ghost-monster-voice-moaning-growling",
+    "urheber": "qubodup",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "truhe-auf",
+   "name": "Truhe öffnen",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "truhe-auf.ogg"
+   ],
+   "dauer": [
+    1.3
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_chest_open*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "truhe-zu",
+   "name": "Truhe schließen",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "truhe-zu.ogg"
+   ],
+   "dauer": [
+    0.7
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_chest_close*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "muenzhaufen",
+   "name": "Münzen ausschütten",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "muenzhaufen-1.ogg",
+    "muenzhaufen-2.ogg",
+    "muenzhaufen-3.ogg"
+   ],
+   "dauer": [
+    0.69,
+    1.07,
+    1.37
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_coin_spill_0*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "glaeser",
+   "name": "Gläser klirren",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "glaeser-1.ogg",
+    "glaeser-2.ogg",
+    "glaeser-3.ogg",
+    "glaeser-4.ogg"
+   ],
+   "dauer": [
+    0.2,
+    0.17,
+    0.27,
+    0.4
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_glass_clink_0*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "korken",
+   "name": "Flasche entkorken",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "korken-1.ogg",
+    "korken-2.ogg"
+   ],
+   "dauer": [
+    0.47,
+    0.58
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_bottle_*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "seil",
+   "name": "Seil ziehen",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "seil-1.ogg",
+    "seil-2.ogg",
+    "seil-3.ogg"
+   ],
+   "dauer": [
+    3.64,
+    2.64,
+    0.85
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_rope_pull_0*\"|einzel|6|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "platschen",
+   "name": "Platschen",
+   "gruppe": "Wasser",
+   "art": "einzel",
+   "dateien": [
+    "platschen-1.ogg",
+    "platschen-2.ogg"
+   ],
+   "dauer": [
+    1.13,
+    1.7
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*sfx_splash_0*\"|einzel|4|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "blubbern",
+   "name": "Blubbern im Sumpf",
+   "gruppe": "Wasser",
+   "art": "einzel",
+   "dateien": [
+    "blubbern-1.ogg",
+    "blubbern-2.ogg",
+    "blubbern-3.ogg",
+    "blubbern-4.ogg"
+   ],
+   "dauer": [
+    4.0,
+    4.0,
+    4.0,
+    4.0
+   ],
+   "kanaele": 2,
+   "schnitt": "oga|swamp-environment-audio|swamp_sounds.zip|\"*bubbling_*\"|einzel|4|4",
+   "quelle": {
+    "titel": "Swamp Environment Audio",
+    "seite": "https://opengameart.org/content/swamp-environment-audio",
+    "urheber": "LokiF",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "ketten",
+   "name": "Ketten",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "ketten-1.ogg",
+    "ketten-2.ogg",
+    "ketten-3.ogg"
+   ],
+   "dauer": [
+    0.51,
+    0.49,
+    0.93
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|80-cc0-rpg-sfx|80-CC0-RPG-SFX_0.zip|\"*chain_0*.ogg\"|einzel|4|",
+   "quelle": {
+    "titel": "80 CC0 RPG SFX",
+    "seite": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "buch",
+   "name": "Buch blättern",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "buch-1.ogg",
+    "buch-2.ogg",
+    "buch-3.ogg",
+    "buch-4.ogg"
+   ],
+   "dauer": [
+    0.72,
+    0.87,
+    1.21,
+    1.15
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|80-cc0-rpg-sfx|80-CC0-RPG-SFX_0.zip|\"*book_0*.ogg\"|einzel|3|",
+   "quelle": {
+    "titel": "80 CC0 RPG SFX",
+    "seite": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "pergament",
+   "name": "Pergament",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "pergament-1.ogg",
+    "pergament-2.ogg",
+    "pergament-3.ogg",
+    "pergament-4.ogg"
+   ],
+   "dauer": [
+    0.39,
+    0.5,
+    0.54,
+    0.6
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|100-cc0-sfx|100-CC0-SFX_0.zip|\"*paper_0*.ogg\"|einzel|3|",
+   "quelle": {
+    "titel": "100 CC0 SFX",
+    "seite": "https://opengameart.org/content/100-cc0-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "trank",
+   "name": "Trank blubbert",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "trank-1.ogg",
+    "trank-2.ogg",
+    "trank-3.ogg"
+   ],
+   "dauer": [
+    0.46,
+    0.44,
+    0.72
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|rpg-sound-pack|rpg_sound_pack.zip|\"*bubble*.wav\"|einzel|4|",
+   "quelle": {
+    "titel": "RPG Sound Pack",
+    "seite": "https://opengameart.org/content/rpg-sound-pack",
+    "urheber": "artisticdude",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "steinschlag",
+   "name": "Steinschlag",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "steinschlag-1.ogg",
+    "steinschlag-2.ogg",
+    "steinschlag-3.ogg",
+    "steinschlag-4.ogg"
+   ],
+   "dauer": [
+    0.68,
+    0.73,
+    0.92,
+    0.38
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|80-cc0-rpg-sfx|80-CC0-RPG-SFX_0.zip|\"*stones_0*.ogg\"|einzel|4|",
+   "quelle": {
+    "titel": "80 CC0 RPG SFX",
+    "seite": "https://opengameart.org/content/80-cc0-rpg-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "holz-bricht",
+   "name": "Holz bricht",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "holz-bricht-1.ogg",
+    "holz-bricht-2.ogg",
+    "holz-bricht-3.ogg",
+    "holz-bricht-4.ogg",
+    "holz-bricht-5.ogg",
+    "holz-bricht-6.ogg"
+   ],
+   "dauer": [
+    0.56,
+    0.57,
+    0.18,
+    0.25,
+    0.31,
+    0.25
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|100-cc0-metal-and-wood-sfx|100-CC0-wood-metal-SFX.zip|[\"*wood_breaking_0*.ogg\", \"*wood_cracking_0*.ogg\"]|einzel|4|",
+   "quelle": {
+    "titel": "100 CC0 metal and wood SFX",
+    "seite": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schluessel",
+   "name": "Schlüsselbund",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "schluessel-1.ogg",
+    "schluessel-2.ogg",
+    "schluessel-3.ogg",
+    "schluessel-4.ogg",
+    "schluessel-5.ogg"
+   ],
+   "dauer": [
+    0.41,
+    0.46,
+    0.48,
+    0.38,
+    0.57
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|100-cc0-metal-and-wood-sfx|100-CC0-wood-metal-SFX.zip|\"*keys_0*.ogg\"|einzel|3|5",
+   "quelle": {
+    "titel": "100 CC0 metal and wood SFX",
+    "seite": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "eisentor",
+   "name": "Eisentor schlägt zu",
+   "gruppe": "Dinge",
+   "art": "einzel",
+   "dateien": [
+    "eisentor-1.ogg",
+    "eisentor-2.ogg"
+   ],
+   "dauer": [
+    0.69,
+    0.57
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|100-cc0-metal-and-wood-sfx|100-CC0-wood-metal-SFX.zip|[\"*metal_slam_01.ogg\", \"*metal_close_01.ogg\"]|einzel|4|",
+   "quelle": {
+    "titel": "100 CC0 metal and wood SFX",
+    "seite": "https://opengameart.org/content/100-cc0-metal-and-wood-sfx",
+    "urheber": "rubberduck",
+    "lizenz": "CC0 1.0",
+    "lizenzUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schritte-holz",
+   "name": "Schritte auf Holz",
+   "gruppe": "Schritte",
+   "art": "einzel",
+   "dateien": [
+    "schritte-holz-1.ogg",
+    "schritte-holz-2.ogg",
+    "schritte-holz-3.ogg",
+    "schritte-holz-4.ogg",
+    "schritte-holz-5.ogg"
+   ],
+   "dauer": [
+    0.47,
+    0.47,
+    0.4,
+    0.47,
+    0.47
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*steps_wood_slow_0*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schritte-stein",
+   "name": "Schritte auf Stein",
+   "gruppe": "Schritte",
+   "art": "einzel",
+   "dateien": [
+    "schritte-stein-1.ogg",
+    "schritte-stein-2.ogg",
+    "schritte-stein-3.ogg",
+    "schritte-stein-4.ogg",
+    "schritte-stein-5.ogg"
+   ],
+   "dauer": [
+    0.23,
+    0.23,
+    0.23,
+    0.23,
+    0.23
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*steps_stone_0*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schritte-wasser",
+   "name": "Schritte im Wasser",
+   "gruppe": "Schritte",
+   "art": "einzel",
+   "dateien": [
+    "schritte-wasser-1.ogg",
+    "schritte-wasser-2.ogg",
+    "schritte-wasser-3.ogg",
+    "schritte-wasser-4.ogg",
+    "schritte-wasser-5.ogg"
+   ],
+   "dauer": [
+    0.67,
+    0.67,
+    0.67,
+    0.67,
+    0.67
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*steps_water_0*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "herkunft": "OpenGameArt"
+   }
+  },
+  {
+   "id": "schritte-sand",
+   "name": "Schritte im Sand",
+   "gruppe": "Schritte",
+   "art": "einzel",
+   "dateien": [
+    "schritte-sand-1.ogg",
+    "schritte-sand-2.ogg",
+    "schritte-sand-3.ogg",
+    "schritte-sand-4.ogg",
+    "schritte-sand-5.ogg"
+   ],
+   "dauer": [
+    0.37,
+    0.37,
+    0.37,
+    0.37,
+    0.37
+   ],
+   "kanaele": 1,
+   "schnitt": "oga|jc-sounds-pirate-pack-vol-1|pirate_pack_vol_1.7z|\"*steps_sand_dry_0*\"|einzel|3|",
+   "quelle": {
+    "titel": "JC Sounds - Pirate Pack Vol 1",
+    "seite": "https://opengameart.org/content/jc-sounds-pirate-pack-vol-1",
+    "urheber": "JC Sounds",
+    "lizenz": "CC BY 4.0",
+    "lizenzUrl": "https://creativecommons.org/licenses/by/4.0/",
     "herkunft": "OpenGameArt"
    }
   }

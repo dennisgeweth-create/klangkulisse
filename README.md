@@ -2,7 +2,7 @@
 
 Raumklang für den Spieltisch: Szenen für Taverne, Lagerfeuer, Gewitter, Höhle, Schlacht und mehr, in **7.1**, 5.1 oder Stereo, direkt aus dem Browser. Gedacht für Pen-&-Paper-Runden (D&D und Verwandte), ähnlich wie Syrinscape, aber ohne Konto und ohne Installation.
 
-- **Über 60 Szenen** in aufklappbaren Gruppen (Gasthäuser, Stadt & Burg, Wald & Wildnis, Unterwelt, Grusel, Kampf, Magie …), viele davon als Varianten (Gaststube spät in der Nacht, Lagerfeuer im Regen). Ein Suchfeld findet jede Szene.
+- **Über 80 Szenen** in aufklappbaren Gruppen (Gasthäuser, Stadt & Burg, Wald & Wildnis, Unterwelt, Grusel, Kampf, Magie …), viele davon als Varianten (Gaststube spät in der Nacht, Lagerfeuer im Regen). Ein Suchfeld findet jede Szene.
 - **Szenen** bestehen aus Ebenen: Schleifen (Regen, Wind, Gaststube), Musik und Zufallsereignisse (ein Kauz hinter euch, Donner von irgendwo, Krähen über dem Friedhof). Beim Szenenwechsel wird weich übergeblendet.
 - **Echter Raum:** Jede Quelle hat einen Ort. Im Raumbild lassen sich Punkte ziehen, und der Klang wandert mit. Ereignisse tauchen in ihrem Sektor auf (vorn, hinten, ringsum), Reiter und Möwen ziehen vorbei.
 - **Subwoofer** (LFE) bekommt nur, was durch 120 Hz passt. Donner, Trommeln, Drachenbrüllen und Erdgrollen schicken ihm ihren Anteil.
@@ -84,6 +84,8 @@ Was mit einer Aufnahme geschieht, sagt ihre `art` in der Auswahl:
 - `musik`: von vorn, aus- und eingeblendet
 
 Erste Wahl ist Wikimedia Commons (`titel`). Die meisten Einträge haben zusätzlich einen Ersatz von [OpenGameArt](https://opengameart.org) (`oga`: Seite, Datei, bei Paketen ein Muster für die Datei darin). Der springt ein, wenn Commons drosselt, die Datei fehlt oder die Lizenz nicht passt. Urheber und Lizenz liest das Werkzeug von der OpenGameArt-Seite; von mehreren Lizenzen nimmt es die freieste, OGA-BY und GPL nie. Ein späterer Lauf, bei dem Commons antwortet, ersetzt den Ersatz durch die Commons-Aufnahme. `KK_OHNE_COMMONS=1` nimmt gleich den Ersatz.
+
+Ohne Kontakt im User-Agent (`KK_KONTAKT`) liefert Wikimedia inzwischen nur noch Dateien, die gerade in seinem Zwischenspeicher liegen; alles andere beantwortet es mit HTTP 429, auch von einer Heimadresse und auch nach langem Warten. Mit `KK_VERSUCHE=1` gibt das Werkzeug dann sofort auf und nimmt für den Rest den OpenGameArt-Ersatz.
 
 Wikimedia drosselt Rechenzentrums-Adressen (Cloud, GitHub Actions) oft hart (HTTP 429). Das Werkzeug hält sich an `Retry-After`, bricht nach einigen Absagen ab und behält, was es hat. Ein späterer Lauf macht dort weiter, schon geschnittene Klänge bleiben unangetastet. Bleibt die Action hängen, geht es am schnellsten vom eigenen Rechner aus, denn eine Heimadresse wird kaum gedrosselt. Unter Windows:
 

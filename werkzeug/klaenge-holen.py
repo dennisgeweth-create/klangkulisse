@@ -9,7 +9,8 @@ und QUELLEN.md.
 Braucht ffmpeg (mit libopus) und numpy, für .7z-Pakete von OpenGameArt
 auch 7-Zip. Die Rohdateien liegen in werkzeug/.roh/ (nicht im Repo).
 
-Erste Wahl ist immer Wikimedia Commons ("titel"). Hat ein Eintrag einen
+Erste Wahl ist Wikimedia Commons ("titel"). Ein Eintrag ohne "titel" kommt
+nur von OpenGameArt. Hat ein Eintrag mit "titel" zusätzlich einen
 Ersatz von OpenGameArt ("oga"), springt der ein, wenn Commons drosselt, die
 Datei fehlt oder die Lizenz nicht passt:
 
@@ -474,7 +475,7 @@ def main():
     info = {}
     if not ohne_commons:
         try:
-            info = angaben([e['titel'] for e in auswahl if not nur or e['id'] in nur])
+            info = angaben([e['titel'] for e in auswahl if e.get('titel') and (not nur or e['id'] in nur)])
         except Gedrosselt:
             gedrosselt = True
     katalog = []
@@ -489,7 +490,7 @@ def main():
                 katalog.append(vorher)
             continue
         neu = None
-        if not (gedrosselt or ohne_commons):
+        if e.get('titel') and not (gedrosselt or ohne_commons):
             try:
                 neu = von_commons(e, info.get(e['titel']), vorher)
             except Gedrosselt:
